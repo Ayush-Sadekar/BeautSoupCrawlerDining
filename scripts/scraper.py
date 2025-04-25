@@ -21,7 +21,7 @@ def scrape_vt_dining_locations(base_url):
         
         
         if "MenuAtLocation.aspx" in absolute_url and absolute_url not in visited_urls:
-            print(f"Found dining location: {absolute_url}")
+            #print(f"Found dining location: {absolute_url}")
             visited_urls.add(absolute_url)
     
     return visited_urls
