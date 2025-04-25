@@ -59,7 +59,7 @@ def get_menu_items(urls):
     
     return link_dict
 
-my_dict = get_menu_items(location_menu_urls)
+#my_dict = get_menu_items(location_menu_urls)
 
 # this function extracts the nutrition information from each link in the list corresponding to the keys of the dictionary from the last function. Creates a long String -- maybe just write a text file
 
@@ -94,7 +94,7 @@ def write_file(food_dict):
 
 
 
-def write_dining_file(location_url, file_name, dir_path):
+def write_dining_file(location_url, dir_path):
 
     file_text = ""
 
@@ -118,10 +118,12 @@ def write_dining_file(location_url, file_name, dir_path):
                 new_soup = BeautifulSoup(new_response.text, "html.parser")
 
                 recipe_title = new_soup.find(id="recipe_title")
+                
                 if recipe_title is None:
                     pass
                 else:
                     item_Name = new_soup.find(id="recipe_title").text.strip()
+                    file_name = item_Name
                     calories = new_soup.find(id="calories_container").text.strip()
                     file_text += "(" + item_Name + ": " + calories + " "
                     
@@ -139,7 +141,7 @@ def write_dining_file(location_url, file_name, dir_path):
     file = open(full_path, "w")
     file.write(file_text)
     file.close()
-
+    return file_name
 
 def get_hours():
     return
