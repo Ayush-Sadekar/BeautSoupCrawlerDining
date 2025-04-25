@@ -62,7 +62,7 @@ def get_menu_items(urls):
 #my_dict = get_menu_items(location_menu_urls)
 
 # this function extracts the nutrition information from each link in the list corresponding to the keys of the dictionary from the last function. Creates a long String -- maybe just write a text file
-
+# DON'T USE THIS FUNCTION 
 def write_file(food_dict):
 
     file_text = ""
@@ -91,7 +91,7 @@ def write_file(food_dict):
     
     with open("/Users/ayush/Desktop/BeautSoupCrawlerDining/scripts/nutritioninfo.txt", "w") as f:
         f.write(file_text)
-
+# DON'T USE ABOVE FUNCTION
 
 
 def write_dining_file(location_url, dir_path):
