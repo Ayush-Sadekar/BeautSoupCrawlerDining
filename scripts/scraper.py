@@ -27,9 +27,9 @@ def scrape_vt_dining_locations(base_url):
     
     return visited_urls
 
-base_url = "https://foodpro.students.vt.edu/menus/"
+#base_url = "https://foodpro.students.vt.edu/menus/"
 
-location_menu_urls = scrape_vt_dining_locations(base_url)
+#location_menu_urls = scrape_vt_dining_locations(base_url)
 
 
 # this function gets the link for each menu item. Returns a dictionary. Each key is a dining hall, and it corresponds to a list of the link of each menu item
@@ -92,7 +92,7 @@ def write_file(food_dict):
     with open("/Users/ayush/Desktop/BeautSoupCrawlerDining/scripts/nutritioninfo.txt", "w") as f:
         f.write(file_text)
 
-write_file(my_dict)
+
 
 def write_dining_file(location_url, file_name, dir_path):
 
@@ -142,7 +142,7 @@ def write_dining_file(location_url, file_name, dir_path):
 
 
 def get_hours():
-
+    return
     
 
 
