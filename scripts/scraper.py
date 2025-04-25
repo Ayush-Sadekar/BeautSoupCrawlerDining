@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 import urllib
 import time
+import os
 
 # this function gets the link for each dining location
 def scrape_vt_dining_locations(base_url):
@@ -92,6 +93,53 @@ def write_file(food_dict):
         f.write(file_text)
 
 write_file(my_dict)
+
+def write_dining_file(location_url, file_name, dir_path):
+
+    file_text = ""
+
+    response = requests.get(location_url)
+    soup = BeautifulSoup(response.text, 'html.parser')
+
+    hall_name = soup.find(id="dining_center_name_container").text.strip()
+    file_text += "Dining Hall Name: " + hall_name + "\n"
+
+    links = soup.find_all('a', href=True)
+
+    food_items = set()
+
+    for link in links:
+            href = link['href']
+            absolute_url = urllib.parse.urljoin(location_url, href)
+
+            if "label.aspx?locationNum=" in absolute_url and absolute_url not in food_items:
+
+                new_response = requests.get(absolute_url)
+                new_soup = BeautifulSoup(new_response.text, "html.parser")
+
+                recipe_title = new_soup.find(id="recipe_title")
+                if recipe_title is None:
+                    pass
+                else:
+                    item_Name = new_soup.find(id="recipe_title").text.strip()
+                    calories = new_soup.find(id="calories_container").text.strip()
+                    file_text += "(" + item_Name + ": " + calories + " "
+                    
+                    protein = new_soup.find('p', class_ = "col-lg-12")
+                    if protein is None:
+                        protein = "protein unavailable"
+                    else:
+                        protein = new_soup.find('p', class_ = "col-lg-12").text.strip()
+                    file_text += protein + ")\n"
+
+
+                food_items.add(absolute_url)
+    
+    full_path = os.path.join(dir_path, file_name)
+    file = open(full_path, "w")
+    file.write(file_text)
+    file.close()
+
     
 
 
