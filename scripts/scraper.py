@@ -140,6 +140,9 @@ def write_dining_file(location_url, file_name, dir_path):
     file.write(file_text)
     file.close()
 
+
+def get_hours():
+
     
 
 
