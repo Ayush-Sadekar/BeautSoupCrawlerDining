@@ -61,39 +61,6 @@ def get_menu_items(urls):
 
 #my_dict = get_menu_items(location_menu_urls)
 
-# this function extracts the nutrition information from each link in the list corresponding to the keys of the dictionary from the last function. Creates a long String -- maybe just write a text file
-# DON'T USE THIS FUNCTION 
-def write_file(food_dict):
-
-    file_text = ""
-
-    for key in food_dict.keys():
-
-        file_text += key + ": "
-        food_list = food_dict[key]
-
-
-
-        for item in food_list:
-
-            response = requests.get(item)
-            soup = BeautifulSoup(response.text, 'html.parser')
-
-            recipe_title = soup.find(id="recipe_title")
-            if recipe_title is None:
-                pass
-            else:
-                item_Name = soup.find(id="recipe_title").text.strip()
-                calories = soup.find(id="calories_container").text.strip()
-                file_text += "(" + item_Name + ": " + calories + " "
-                #protein = soup.find('p', class_="col-lg-12").text.strip() if soup.find('p', class_="col-lg-12") != None or soup.find('p', class_="col-lg-12").text != None else "protein unavailable"
-                file_text += ")\n"
-    
-    with open("/Users/ayush/Desktop/BeautSoupCrawlerDining/scripts/nutritioninfo.txt", "w") as f:
-        f.write(file_text)
-# DON'T USE ABOVE FUNCTION
-
-
 def write_dining_file(location_url, dir_path):
 
     file_text = ""
