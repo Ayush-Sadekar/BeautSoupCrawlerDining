@@ -110,8 +110,9 @@ def write_dining_file(location_url, dir_path):
     file.close()
     return file_name
 
-def get_hours():
-    return
+def get_hours(url):
     
+    response = requests.get(url)
+    soup = BeautifulSoup(response, 'html.parser')
 
-
+    

@@ -6,6 +6,7 @@ import os
 import ollama
 import chromadb
 from sentence_transformers import SentenceTransformer
+import datetime
 
 from scraper import scrape_vt_dining_locations, write_dining_file
 
