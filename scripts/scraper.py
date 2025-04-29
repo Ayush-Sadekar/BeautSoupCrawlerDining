@@ -70,6 +70,7 @@ def write_dining_file(location_url, dir_path):
 
     hall_name = soup.find(id="dining_center_name_container").text.strip()
     file_text += "Dining Hall Name: " + hall_name + "\n"
+    file_name = hall_name + ".txt"
 
     links = soup.find_all('a', href=True)
 
@@ -90,7 +91,6 @@ def write_dining_file(location_url, dir_path):
                     pass
                 else:
                     item_Name = new_soup.find(id="recipe_title").text.strip()
-                    file_name = item_Name
                     calories = new_soup.find(id="calories_container").text.strip()
                     file_text += "(" + item_Name + ": " + calories + " "
                     
@@ -115,4 +115,3 @@ def get_hours(url):
     response = requests.get(url)
     soup = BeautifulSoup(response, 'html.parser')
 
-    
