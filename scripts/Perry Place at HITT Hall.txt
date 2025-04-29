@@ -1,0 +1,393 @@
+Dining Hall Name: Perry Place at HITT Hall
+(Apple Cider Bacon: Calories
+                                        107 protein unavailable)
+(Bacon Cheddar Chive Tater Kegs: Calories
+                                        47 protein unavailable)
+(Buttered Toast: Calories
+                                        252 protein unavailable)
+(Chicken Sausage Links: Calories
+                                        199 protein unavailable)
+(Impossible Sausage Patty: Calories
+                                        100 protein unavailable)
+(Sausage Gravy: Calories
+                                        52 protein unavailable)
+(Scrambled "Just Eggs": Calories
+                                        198 protein unavailable)
+(Scrambled Eggs: Calories
+                                        198 protein unavailable)
+(Shredded Hashbrowns: Calories
+                                        108 protein unavailable)
+(Southern Style Biscuit: Calories
+                                        390 protein unavailable)
+(Biscuit Crumble Rumble Bowl: Calories
+                                        1290 protein unavailable)
+(Harvest Bowl: Calories
+                                        517 protein unavailable)
+(Huevos Rancheros: Calories
+                                        570 protein unavailable)
+(Korean Avocado Toast: Calories
+                                        592 protein unavailable)
+(Korean Avocado Toast with Fried Pork Belly: Calories
+                                        1077 protein unavailable)
+(Blackberries: Calories
+                                        12 protein unavailable)
+(Blueberries: Calories
+                                        16 protein unavailable)
+(Buttermilk Waffle: Calories
+                                        569 protein unavailable)
+(Candied Pecans: Calories
+                                        142 protein unavailable)
+(Chocolate Chips: Calories
+                                        136 protein unavailable)
+(Quartered Strawberries: Calories
+                                        36 protein unavailable)
+(Toasted Almonds: Calories
+                                        162 protein unavailable)
+(Whipped Cream: Calories
+                                        108 protein unavailable)
+(French Toast Bread Pudding: Calories
+                                        676 protein unavailable)
+(Beef and Lamb Greek Style Meatball: Calories
+                                        161 protein unavailable)
+(Brewed Coffee Large: Calories
+                                        187 protein unavailable)
+(Brewed Coffee Medium: Calories
+                                        140 protein unavailable)
+(Cold Brew Large: Calories
+                                        187 protein unavailable)
+(Cold Brew Medium: Calories
+                                        121 protein unavailable)
+(Iced Coffee Large: Calories
+                                        77 protein unavailable)
+(Iced Coffee Medium: Calories
+                                        140 protein unavailable)
+(Double Espresso Shot: Calories
+                                        0 protein unavailable)
+(Triple Espresso Shot: Calories
+                                        0 protein unavailable)
+(Hot Chocolate Large: Calories
+                                        583 protein unavailable)
+(Hot Chocolate Medium: Calories
+                                        466 protein unavailable)
+(Hot Tea Large: Calories
+                                        147 protein unavailable)
+(Hot Tea Medium: Calories
+                                        110 protein unavailable)
+(Hot Americano Large: Calories
+                                        0 protein unavailable)
+(Hot Americano Medium: Calories
+                                        0 protein unavailable)
+(Iced Americano Large: Calories
+                                        0 protein unavailable)
+(Iced Americano Medium: Calories
+                                        0 protein unavailable)
+(Hot Latte Large: Calories
+                                        333 protein unavailable)
+(Hot Latte Medium: Calories
+                                        306 protein unavailable)
+(Iced Latte Large: Calories
+                                        333 protein unavailable)
+(Iced Latte Medium: Calories
+                                        306 protein unavailable)
+(Hot Cappucino Large: Calories
+                                        240 protein unavailable)
+(Hot Cappucino Medium: Calories
+                                        194 protein unavailable)
+(Iced Cappucino Large: Calories
+                                        240 protein unavailable)
+(Iced Cappucino Medium: Calories
+                                        194 protein unavailable)
+(Hot Macchiato Large: Calories
+                                        110 protein unavailable)
+(Hot Macchiato Medium: Calories
+                                        194 protein unavailable)
+(Iced Macchiato Large: Calories
+                                        240 protein unavailable)
+(Iced Macchiato Medium: Calories
+                                        194 protein unavailable)
+(Cucumber Watermelon Refresher Medium: Calories
+                                        148 protein unavailable)
+(Cucumber Watermelon Refresher Large: Calories
+                                        194 protein unavailable)
+(Peach Mango Refresher Large: Calories
+                                        277 protein unavailable)
+(Peach Mango Refresher Medium: Calories
+                                        212 protein unavailable)
+(Strawberry Acai Refresher Large: Calories
+                                        118 protein unavailable)
+(Strawberry Acai Refresher Medium: Calories
+                                        91 protein unavailable)
+(Frozen Matcha Latte Large: Calories
+                                        333 protein unavailable)
+(Frozen Matcha Latte Medium: Calories
+                                        306 protein unavailable)
+(Hot Matcha Latte Large: Calories
+                                        588 protein unavailable)
+(Hot Matcha Latte Medium: Calories
+                                        536 protein unavailable)
+(Iced Matcha Latte Large: Calories
+                                        735 protein unavailable)
+(Iced Matcha Latte Medium: Calories
+                                        610 protein unavailable)
+(Hot Chai Latte Large: Calories
+                                        419 protein unavailable)
+(Hot Chai Latte Medium: Calories
+                                        299 protein unavailable)
+(Iced Chai Latte Large: Calories
+                                        419 protein unavailable)
+(Iced Chai Latte Medium: Calories
+                                        299 protein unavailable)
+(Mango Smoothie Large: Calories
+                                        430 protein unavailable)
+(Mango Smoothie Medium: Calories
+                                        323 protein unavailable)
+(Peach Smoothie Large: Calories
+                                        587 protein unavailable)
+(Peach Smoothie Medium: Calories
+                                        440 protein unavailable)
+(Strawberry Smoothie Large: Calories
+                                        548 protein unavailable)
+(Strawberry Smoothie Medium: Calories
+                                        411 protein unavailable)
+(Bridor Pastry, Bacon & Egg Croissant: Calories
+                                        260 protein unavailable)
+(Bridor Pastry, Blueberry Danish: Calories
+                                        290 protein unavailable)
+(Bridor Pastry, Croissant: Calories
+                                        370 protein unavailable)
+(Chocolate Croissant: Calories
+                                        300 protein unavailable)
+(5 oz Texas Style Beef Brisket: Calories
+                                        535 protein unavailable)
+(Pulled BBQ Jackfruit: Calories
+                                        116 protein unavailable)
+(Pulled Pork: Calories
+                                        349 protein unavailable)
+(Smoked Chicken Wings: Calories
+                                        901 protein unavailable)
+(Smoked Pork Belly: Calories
+                                        663 protein unavailable)
+(Smoked St. Louis Style Pork Ribs: Calories
+                                        1037 protein unavailable)
+(Smoked Turkey Breast: Calories
+                                        161 protein unavailable)
+(Chopped Brisket Sandwich: Calories
+                                        778 protein unavailable)
+(The Brisket Bomb Chimichanga: Calories
+                                        783 protein unavailable)
+(The Piggy Mac Attack Chimichanga: Calories
+                                        763 protein unavailable)
+(Baked Beans: Calories
+                                        124 protein unavailable)
+(Baked Potato: Calories
+                                        315 protein unavailable)
+(Coleslaw: Calories
+                                        233 protein unavailable)
+(Cream of Corn: Calories
+                                        264 protein unavailable)
+(Hamburger Bun: Calories
+                                        140 protein unavailable)
+(Smoked Jalapeno Mac and Cheese: Calories
+                                        312 protein unavailable)
+(Southern Potato Salad: Calories
+                                        336 protein unavailable)
+(Southern Style Collard Greens: Calories
+                                        79 protein unavailable)
+(The Smoke Stack Topping: Calories
+                                        363 protein unavailable)
+(Bacon Me Crazy Bourbon Cheesecake: Calories
+                                        580 protein unavailable)
+(Banana Pudding: Calories
+                                        370 protein unavailable)
+(Alabama White Sauce: Calories
+                                        345 protein unavailable)
+(Cooked Bacon Bits: Calories
+                                        158 protein unavailable)
+(Monterey Jack Cheddar Cheese Blend: Calories
+                                        111 protein unavailable)
+(Mustard BBQ Sauce: Calories
+                                        68 protein unavailable)
+(North Carolina BBQ Sauce: Calories
+                                        21 protein unavailable)
+(Pickle Chips: Calories
+                                        1 protein unavailable)
+(Pickled Red Onion: Calories
+                                        13 protein unavailable)
+(Sliced Green Onion: Calories
+                                        4 protein unavailable)
+(Sliced Jalapenos: Calories
+                                        9 protein unavailable)
+(Sour Cream: Calories
+                                        60 protein unavailable)
+(Sweet Baby Ray's BBQ Sauce: Calories
+                                        110 protein unavailable)
+(Yellow Onion Strips: Calories
+                                        12 protein unavailable)
+(Multi Grain Brown Rice: Calories
+                                        262 protein unavailable)
+(Steamed Jasmine Rice: Calories
+                                        221 protein unavailable)
+(Sesame Ginger Impossible Meatball: Calories
+                                        450 protein unavailable)
+(Sesame Orange Tamarind Chicken: Calories
+                                        273 protein unavailable)
+(Teriyaki Chicken: Calories
+                                        263 protein unavailable)
+(Teriyaki Tofu: Calories
+                                        180 protein unavailable)
+(Cucumber Salad: Calories
+                                        92 protein unavailable)
+(Edamame: Calories
+                                        34 protein unavailable)
+(French Fried Onions: Calories
+                                        182 protein unavailable)
+(Roasted Ginger Butternut Squash: Calories
+                                        142 protein unavailable)
+(Grilled Pineapple: Calories
+                                        14 protein unavailable)
+(Vegetable Spring Roll: Calories
+                                        68 protein unavailable)
+(Citrus Ponzu: Calories
+                                        50 protein unavailable)
+(Honey Teriyaki Drizzle Sauce: Calories
+                                        57 protein unavailable)
+(Chicken Pho Broth: Calories
+                                        70 protein unavailable)
+(Thai Coconut Curry Broth: Calories
+                                        607 protein unavailable)
+(Vegetable Pho Broth: Calories
+                                        95 protein unavailable)
+(Beef: Calories
+                                        101 protein unavailable)
+(Chicken Breast: Calories
+                                        89 protein unavailable)
+(Fried Tofu: Calories
+                                        88 protein unavailable)
+(Bean Sprouts: Calories
+                                        34 protein unavailable)
+(Bok Choy: Calories
+                                        5 protein unavailable)
+(Broccoli: Calories
+                                        19 protein unavailable)
+(Carrots: Calories
+                                        12 protein unavailable)
+(Cilantro: Calories
+                                        3 protein unavailable)
+(Green Onions: Calories
+                                        2 protein unavailable)
+(Lime Wedge: Calories
+                                        3 protein unavailable)
+(Rice Noodles: Calories
+                                        408 protein unavailable)
+(Sliced Jalapenos: Calories
+                                        2 protein unavailable)
+(Yellow Onions: Calories
+                                        11 protein unavailable)
+(Korean Chicken and Waffles: Calories
+                                        1080 protein unavailable)
+(Nashville Hot Chik'n: Calories
+                                        618 protein unavailable)
+(Deep Fried Mango Disco Biscuit: Calories
+                                        794 protein unavailable)
+(BLT Sandwich: Calories
+                                        798 protein unavailable)
+(Extra Smash Burger Patty: Calories
+                                        251 protein unavailable)
+(The Solar Smash Burger: Calories
+                                        609 protein unavailable)
+(Shot and Stout Onion Rings: Calories
+                                        334 protein unavailable)
+(Fakes Style Lentils: Calories
+                                        108 protein unavailable)
+(Greek Lemon Rice: Calories
+                                        145 protein unavailable)
+(Lettuce Mix: Calories
+                                        10 protein unavailable)
+(Falafel: Calories
+                                        147 protein unavailable)
+(Greek Chicken: Calories
+                                        268 protein unavailable)
+(Baba Ganoush: Calories
+                                        90 protein unavailable)
+(Classic Hummus: Calories
+                                        204 protein unavailable)
+(Crumbled Feta Cheese: Calories
+                                        162 protein unavailable)
+(Diced Tomatoes: Calories
+                                        5 protein unavailable)
+(Dolmades (Stuffed Grape Leaves): Calories
+                                        83 protein unavailable)
+(Greek Roasted Vegetables: Calories
+                                        15 protein unavailable)
+(Green Zhug: Calories
+                                        59 protein unavailable)
+(Sliced Cucumbers: Calories
+                                        3 protein unavailable)
+(Sliced Kalamata Olives: Calories
+                                        158 protein unavailable)
+(Tzatziki Sauce: Calories
+                                        41 protein unavailable)
+(Gluten Free Pita: Calories
+                                        130 protein unavailable)
+(Large Baklava: Calories
+                                        780 protein unavailable)
+(Cadet Carrier: Calories
+                                        1049 protein unavailable)
+(Hokie Handcar: Calories
+                                        974 protein unavailable)
+(New Orleans Union Station: Calories
+                                        1116 protein unavailable)
+(The 611: Calories
+                                        885 protein unavailable)
+(The Fun Guy: Calories
+                                        877 protein unavailable)
+(The Huckleberry: Calories
+                                        670 protein unavailable)
+(The Merrimac: Calories
+                                        878 protein unavailable)
+(The Pennsy Sandwich: Calories
+                                        982 protein unavailable)
+(The VT Express: Calories
+                                        730 protein unavailable)
+(Waterloo Station: Calories
+                                        1036 protein unavailable)
+(Penne a la Bolognese: Calories
+                                        481 protein unavailable)
+(Spaghetti with Garlic and Spinach Sauce: Calories
+                                        474 protein unavailable)
+(Spaghetti with Marinara: Calories
+                                        418 protein unavailable)
+(Spaghetti with Olive Oil: Calories
+                                        609 protein unavailable)
+(Spaghetti with Romesco Sauce (Almonds): Calories
+                                        546 protein unavailable)
+(Gigantic Meatball with Red Sauce: Calories
+                                        484 protein unavailable)
+(Lentil Bolognese: Calories
+                                        50 protein unavailable)
+(Focaccia Breadstick: Calories
+                                        170 protein unavailable)
+(Black Pepper: Calories
+                                        0 protein unavailable)
+(Chopped Parsley: Calories
+                                        3 protein unavailable)
+(Cooked Bacon Bits: Calories
+                                        79 protein unavailable)
+(Finishing Oil: Calories
+                                        59 protein unavailable)
+(Fresh Spinach: Calories
+                                        7 protein unavailable)
+(Parmesan Crisp: Calories
+                                        43 protein unavailable)
+(Roasted Garlic Confit: Calories
+                                        164 protein unavailable)
+(Shaved Parmesan Cheese: Calories
+                                        28 protein unavailable)
+(Tomato Basil Cruda: Calories
+                                        19 protein unavailable)
+(Tiramisu: Calories
+                                        370 protein unavailable)
+(Rotisserie Chicken: Calories
+                                        654 protein unavailable)
+(Tomato Bisque: Calories
+                                        91 protein unavailable)

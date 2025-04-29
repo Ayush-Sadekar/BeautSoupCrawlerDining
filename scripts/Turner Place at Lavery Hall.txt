@@ -1,0 +1,573 @@
+Dining Hall Name: Turner Place at Lavery Hall
+(Bacon: Calories
+                                        133 protein unavailable)
+(Biscuit: Calories
+                                        263 protein unavailable)
+(French Toast Sticks: Calories
+                                        422 protein unavailable)
+(Sausage Gravy: Calories
+                                        134 protein unavailable)
+(Sausage Patties: Calories
+                                        400 protein unavailable)
+(Scrambled Eggs: Calories
+                                        249 protein unavailable)
+(Steamed Eggs: Calories
+                                        176 protein unavailable)
+(Tater Tots: Calories
+                                        180 protein unavailable)
+(Monday Blue Plate Special: Calories
+                                        1079 protein unavailable)
+(Irish Stew: Calories
+                                        225 protein unavailable)
+(Lemon Pepper Rotisserie Chicken: Calories
+                                        455 protein unavailable)
+(Old Bay Fried Catfish: Calories
+                                        96 protein unavailable)
+(Brussels Sprouts, Peppers and Bacon: Calories
+                                        73 protein unavailable)
+(Glazed Carrots: Calories
+                                        54 protein unavailable)
+(Honey Wheat Roll: Calories
+                                        149 protein unavailable)
+(Mushroom Gravy: Calories
+                                        41 protein unavailable)
+(Peach Cobbler: Calories
+                                        201 protein unavailable)
+(Wild Rice: Calories
+                                        203 protein unavailable)
+(Grilled BBQ Chicken: Calories
+                                        552 protein unavailable)
+(Sesame Ginger Salmon: Calories
+                                        422 protein unavailable)
+(Brussels Sprouts, Peppers and Bacon: Calories
+                                        59 protein unavailable)
+(Southern Succotash: Calories
+                                        147 protein unavailable)
+(Firecracker Chicken with Fried Rice: Calories
+                                        1009 protein unavailable)
+(Firecracker Chicken with Steamed Rice: Calories
+                                        1024 protein unavailable)
+(Fried Rice: Calories
+                                        461 protein unavailable)
+(Grilled Tofu: Calories
+                                        410 protein unavailable)
+(Grilled Tofu with Fried Rice*: Calories
+                                        1008 protein unavailable)
+(Grilled Tofu with Steamed Rice**: Calories
+                                        1023 protein unavailable)
+(Steamed Rice: Calories
+                                        481 protein unavailable)
+(Szechuan Beef with Rice: Calories
+                                        896 protein unavailable)
+(Szechuan Beef with Steamed Rice: Calories
+                                        912 protein unavailable)
+(Yum Yum Sauce: Calories
+                                        244 protein unavailable)
+(California Roll: Calories
+                                        277 protein unavailable)
+(Crunchy Onions: Calories
+                                        109 protein unavailable)
+(Eel Nigiri: Calories
+                                        278 protein unavailable)
+(Eel Roll: Calories
+                                        354 protein unavailable)
+(Eel Sauce: Calories
+                                        100 protein unavailable)
+(Hokie Roll: Calories
+                                        271 protein unavailable)
+(Salmon Cream Cheese Roll: Calories
+                                        348 protein unavailable)
+(Salmon Nigiri: Calories
+                                        197 protein unavailable)
+(Salmon Poke Bowl: Calories
+                                        455 protein unavailable)
+(Salmon Roll: Calories
+                                        282 protein unavailable)
+(Shrimp Nigiri: Calories
+                                        136 protein unavailable)
+(Shrimp Roll Sushi: Calories
+                                        239 protein unavailable)
+(Spicy Crab Cream Cheese Roll: Calories
+                                        330 protein unavailable)
+(Spicy Mayo: Calories
+                                        374 protein unavailable)
+(Spicy Tuna Avocado Roll: Calories
+                                        314 protein unavailable)
+(Spicy Tuna Roll: Calories
+                                        286 protein unavailable)
+(Takuwan Vegetarian Roll: Calories
+                                        242 protein unavailable)
+(Tuna Nigiri: Calories
+                                        180 protein unavailable)
+(Tuna Roll: Calories
+                                        259 protein unavailable)
+(BBQ Chicken Pizza Slice: Calories
+                                        484 protein unavailable)
+(Cheese Pizza Slice: Calories
+                                        415 protein unavailable)
+(Chicken Pesto Pizza Slice: Calories
+                                        479 protein unavailable)
+(Pepperoni Pizza Slice: Calories
+                                        478 protein unavailable)
+(Roasted Tomato Pizza Slice: Calories
+                                        472 protein unavailable)
+(Chicken Parmesan Sub: Calories
+                                        494 protein unavailable)
+(Chicken Pesto Sub: Calories
+                                        498 protein unavailable)
+(Eggplant Parmesan Sub: Calories
+                                        309 protein unavailable)
+(Alfredo Sauce: Calories
+                                        332 protein unavailable)
+(Bolognese Sauce: Calories
+                                        157 protein unavailable)
+(Marinara Sauce: Calories
+                                        83 protein unavailable)
+(Pasta, Rotini: Calories
+                                        827 protein unavailable)
+(Sourdough Focaccia: Calories
+                                        145 protein unavailable)
+(Chocolate Brownie: Calories
+                                        405 protein unavailable)
+(Chocolate Chip Cannoli: Calories
+                                        549 protein unavailable)
+(Peanut Butter M&M Cannoli's: Calories
+                                        692 protein unavailable)
+(Rotini Pasta Salad: Calories
+                                        456 protein unavailable)
+(YES TO GO Fresh Mixed Fruit Cup: Calories
+                                        96 protein unavailable)
+(Mulligatawny Soup: Calories
+                                        400 protein unavailable)
+(Tomato Parmesan Sourdough Bread: Calories
+                                        225 protein unavailable)
+(Turkish Red Lentil Soup: Calories
+                                        610 protein unavailable)
+(Italian Baguette: Calories
+                                        1392 protein unavailable)
+(Mini Bread Boule: Calories
+                                        535 protein unavailable)
+(Multigrain Bread: Calories
+                                        117 protein unavailable)
+(Rice: Calories
+                                        185 protein unavailable)
+(Tomato Basil Bread Soup: Calories
+                                        160 protein unavailable)
+(Beef and Bleu Salad: Calories
+                                        804 protein unavailable)
+(Black Olives: Calories
+                                        38 protein unavailable)
+(Bleu Cheese: Calories
+                                        101 protein unavailable)
+(Broccoli: Calories
+                                        16 protein unavailable)
+(Caesar Side Salad: Calories
+                                        624 protein unavailable)
+(Carrots: Calories
+                                        12 protein unavailable)
+(Craisins: Calories
+                                        99 protein unavailable)
+(Croutons: Calories
+                                        91 protein unavailable)
+(Cucumbers: Calories
+                                        4 protein unavailable)
+(Feta Cheese: Calories
+                                        71 protein unavailable)
+(Garbanzo Beans: Calories
+                                        35 protein unavailable)
+(Garden Side Salad: Calories
+                                        43 protein unavailable)
+(Grape Tomatoes: Calories
+                                        10 protein unavailable)
+(Greek Side Salad: Calories
+                                        358 protein unavailable)
+(Grilled Chicken: Calories
+                                        245 protein unavailable)
+(Grilled Citrus Tofu: Calories
+                                        107 protein unavailable)
+(Grilled Salmon: Calories
+                                        251 protein unavailable)
+(Grilled Shrimp: Calories
+                                        154 protein unavailable)
+(Grilled Steak: Calories
+                                        276 protein unavailable)
+(Mesclun Greens: Calories
+                                        14 protein unavailable)
+(Pang Pang Noodle Salad with Peanut Sauce: Calories
+                                        1342 protein unavailable)
+(Parmesan Cheese: Calories
+                                        111 protein unavailable)
+(Raspberry Mandarin Salad: Calories
+                                        915 protein unavailable)
+(Red Onions: Calories
+                                        12 protein unavailable)
+(Red Peppers: Calories
+                                        0 protein unavailable)
+(Rice Noodles with Peanut Sauce: Calories
+                                        340 protein unavailable)
+(Romaine: Calories
+                                        24 protein unavailable)
+(Sliced Eggs: Calories
+                                        44 protein unavailable)
+(Spinach: Calories
+                                        20 protein unavailable)
+(Sunflower Seeds: Calories
+                                        124 protein unavailable)
+(Walnuts: Calories
+                                        185 protein unavailable)
+(Balsamic Vinaigrette: Calories
+                                        58 protein unavailable)
+(Bleu Cheese Dressing: Calories
+                                        80 protein unavailable)
+(Caesar Salad Dressing: Calories
+                                        130 protein unavailable)
+(Fat Free Italian: Calories
+                                        29 protein unavailable)
+(Greek Dressing: Calories
+                                        83 protein unavailable)
+(Homestyle Ranch Salad Dressing: Calories
+                                        103 protein unavailable)
+(Honey Mustard Salad Dressing: Calories
+                                        114 protein unavailable)
+(Italian Salad Dressing: Calories
+                                        120 protein unavailable)
+(Lemon Vinaigrette: Calories
+                                        105 protein unavailable)
+(Lime Vinaigrette: Calories
+                                        67 protein unavailable)
+(Raspberry Vinaigrette: Calories
+                                        129 protein unavailable)
+(Thai Peanut Dressing: Calories
+                                        115 protein unavailable)
+(Blueberry Muffin: Calories
+                                        440 protein unavailable)
+(Chocolate Chip Cookie: Calories
+                                        315 protein unavailable)
+(Chocolate Chip Muffin: Calories
+                                        389 protein unavailable)
+(Chocolate Hazelnut Croissant: Calories
+                                        320 protein unavailable)
+(Cinnamon Roll: Calories
+                                        780 protein unavailable)
+(GNG Assorted Vanilla Cake Donuts: Calories
+                                        542 protein unavailable)
+(GNG Cheese Danish: Calories
+                                        452 protein unavailable)
+(GNG Chocolate Cake Donuts: Calories
+                                        1067 protein unavailable)
+(GNG Chocolate Chip Cookie Sandwich w/White Chocolate Mousse: Calories
+                                        442 protein unavailable)
+(GNG M&M Cookie: Calories
+                                        558 protein unavailable)
+(GNG Triple Chocolate Cookie: Calories
+                                        568 protein unavailable)
+(GNG Vegan Raspberry Muffin: Calories
+                                        583 protein unavailable)
+(Plain Croissant: Calories
+                                        330 protein unavailable)
+(Reese's Cookie: Calories
+                                        628 protein unavailable)
+(Vegan Chocolate Chip Cookie: Calories
+                                        301 protein unavailable)
+(White Chocolate Walnut Bars: Calories
+                                        588 protein unavailable)
+(Banana Foster Crepe: Calories
+                                        642 protein unavailable)
+(Chocolate Turner Crepe: Calories
+                                        734 protein unavailable)
+(Lorraine Crepe: Calories
+                                        651 protein unavailable)
+(Chocolate Crepe with Topping Varieties: Calories
+                                        642 protein unavailable)
+(Sweet Crepe, with Topping Varieties: Calories
+                                        344 protein unavailable)
+(Birthday Cake Gelato: Calories
+                                        165 protein unavailable)
+(Birthday Cake Gelato: Calories
+                                        275 protein unavailable)
+(Birthday Cake Gelato: Calories
+                                        384 protein unavailable)
+(Cappucino Gelato: Calories
+                                        158 protein unavailable)
+(Cappucino Gelato: Calories
+                                        263 protein unavailable)
+(Cappucino Gelato: Calories
+                                        368 protein unavailable)
+(Caramel Latte Gelato: Calories
+                                        176 protein unavailable)
+(Caramel Latte Gelato: Calories
+                                        293 protein unavailable)
+(Caramel Latte Gelato: Calories
+                                        410 protein unavailable)
+(Cherry Bomb Gelato: Calories
+                                        90 protein unavailable)
+(Cherry Bomb Gelato: Calories
+                                        271 protein unavailable)
+(Cherry Bomb Gelato: Calories
+                                        379 protein unavailable)
+(Chocolate Caramel Latte Gelato: Calories
+                                        205 protein unavailable)
+(Chocolate Caramel Latte Gelato: Calories
+                                        342 protein unavailable)
+(Chocolate Caramel Latte Gelato: Calories
+                                        479 protein unavailable)
+(Chocolate Gelato: Calories
+                                        188 protein unavailable)
+(Chocolate Gelato: Calories
+                                        315 protein unavailable)
+(Chocolate Gelato: Calories
+                                        438 protein unavailable)
+(Chocolate Hazelnut Gelato: Calories
+                                        214 protein unavailable)
+(Chocolate Hazelnut Gelato: Calories
+                                        359 protein unavailable)
+(Chocolate Hazelnut Gelato: Calories
+                                        498 protein unavailable)
+(Chocolate Peanut Gelato: Calories
+                                        212 protein unavailable)
+(Chocolate Peanut Gelato: Calories
+                                        356 protein unavailable)
+(Chocolate Peanut Gelato: Calories
+                                        495 protein unavailable)
+(Chocolate Raspberry Gelato: Calories
+                                        177 protein unavailable)
+(Chocolate Raspberry Gelato: Calories
+                                        297 protein unavailable)
+(Chocolate Raspberry Gelato: Calories
+                                        413 protein unavailable)
+(Cinnamon Biscotti Gelato: Calories
+                                        182 protein unavailable)
+(Cinnamon Biscotti Gelato: Calories
+                                        304 protein unavailable)
+(Cinnamon Biscotti Gelato: Calories
+                                        426 protein unavailable)
+(Cookies and Cream Gelato: Calories
+                                        144 protein unavailable)
+(Cookies and Cream Gelato: Calories
+                                        240 protein unavailable)
+(Cookies and Cream Gelato: Calories
+                                        263 protein unavailable)
+(Fior Di Latte Gelato: Calories
+                                        151 protein unavailable)
+(Fior Di Latte Gelato: Calories
+                                        253 protein unavailable)
+(Fior Di Latte Gelato: Calories
+                                        351 protein unavailable)
+(Hazelnut Gelato: Calories
+                                        198 protein unavailable)
+(Hazelnut Gelato: Calories
+                                        330 protein unavailable)
+(Hazelnut Gelato: Calories
+                                        462 protein unavailable)
+(Mint Chocolate Gelato: Calories
+                                        254 protein unavailable)
+(Mint Chocolate Gelato: Calories
+                                        427 protein unavailable)
+(Mint Chocolate Gelato: Calories
+                                        593 protein unavailable)
+(Orange Gelato: Calories
+                                        156 protein unavailable)
+(Orange Gelato: Calories
+                                        260 protein unavailable)
+(Orange Gelato: Calories
+                                        364 protein unavailable)
+(Peach Gelato: Calories
+                                        156 protein unavailable)
+(Peach Gelato: Calories
+                                        254 protein unavailable)
+(Peach Gelato: Calories
+                                        356 protein unavailable)
+(Pineapple Sorbetto: Calories
+                                        183 protein unavailable)
+(Pineapple Sorbetto: Calories
+                                        304 protein unavailable)
+(Pineapple Sorbetto: Calories
+                                        426 protein unavailable)
+(Pistachio Grand Marnier Gelato: Calories
+                                        223 protein unavailable)
+(Pistachio Grand Marnier Gelato: Calories
+                                        374 protein unavailable)
+(Pistachio Grand Marnier Gelato: Calories
+                                        520 protein unavailable)
+(Strawberry Sorbetto: Calories
+                                        147 protein unavailable)
+(Strawberry Sorbetto: Calories
+                                        245 protein unavailable)
+(Strawberry Sorbetto: Calories
+                                        343 protein unavailable)
+(Tiramisu Gelato: Calories
+                                        198 protein unavailable)
+(Tiramisu Gelato: Calories
+                                        330 protein unavailable)
+(Tiramisu Gelato: Calories
+                                        462 protein unavailable)
+(White Chocolate Passion Fruit Gelato: Calories
+                                        207 protein unavailable)
+(White Chocolate Passion Fruit Gelato: Calories
+                                        347 protein unavailable)
+(White Chocolate Passion Fruit Gelato: Calories
+                                        482 protein unavailable)
+(Apple Honey Gelato Pie*: Calories
+                                        395 protein unavailable)
+(Banana Puddin' Gelato Pie: Calories
+                                        292 protein unavailable)
+(Banana Puddin' Gelato: Calories
+                                        295 protein unavailable)
+(Birthday Cake Gelato Pie: Calories
+                                        274 protein unavailable)
+(Caramel Latte Gelato: Calories
+                                        410 protein unavailable)
+(Chocolate Caramel Gelato Pie: Calories
+                                        245 protein unavailable)
+(Chocolate Cherry Gelato Pie: Calories
+                                        240 protein unavailable)
+(Chocolate Coffee Gelato Pie: Calories
+                                        353 protein unavailable)
+(Chocolate Coffee Gelato: Calories
+                                        587 protein unavailable)
+(Chocolate Gelato Pie*: Calories
+                                        291 protein unavailable)
+(Chocolate Hazelnut Gelato Pie*: Calories
+                                        315 protein unavailable)
+(Chocolate Peanut Butter Gelato Pie: Calories
+                                        313 protein unavailable)
+(Chocolate Raspberry Gelato Pie: Calories
+                                        278 protein unavailable)
+(Cookies & Cream Gelato Pie: Calories
+                                        314 protein unavailable)
+(Hazelnut Gelato Pie: Calories
+                                        299 protein unavailable)
+(Mint Chocolate Gelato Pie: Calories
+                                        439 protein unavailable)
+(Mint Chocolate Gelato: Calories
+                                        593 protein unavailable)
+(Peach Gelato: Calories
+                                        365 protein unavailable)
+(Peach Sorbetto: Calories
+                                        424 protein unavailable)
+(Pumpkin Gelato Pie: Calories
+                                        407 protein unavailable)
+(Tiramisu Gelato: Calories
+                                        462 protein unavailable)
+(Apple Pie: Calories
+                                        301 protein unavailable)
+(Asian Rice Tofu Bowl: Calories
+                                        486 protein unavailable)
+(Assorted Fresh Fruit: Calories
+                                        84 protein unavailable)
+(Assorted New York Style Cheesecake: Calories
+                                        673 protein unavailable)
+(Cherry Jello: Calories
+                                        243 protein unavailable)
+(Chocolate Coconut Mousse Cup: Calories
+                                        423 protein unavailable)
+(Chocolate Mint Pie: Calories
+                                        439 protein unavailable)
+(Cookies & Cream Pie: Calories
+                                        410 protein unavailable)
+(GNG Applewood Ham & Swiss Sandwich: Calories
+                                        633 protein unavailable)
+(GNG Bacon Jam, Egg, Cheese Biscuit Sandwich: Calories
+                                        358 protein unavailable)
+(GNG Brie & Cracker Box: Calories
+                                        397 protein unavailable)
+(GNG Buffalo Chicken Wrap: Calories
+                                        631 protein unavailable)
+(GNG Carrot Cake Slice: Calories
+                                        680 protein unavailable)
+(GNG Cheese and Cracker Snack: Calories
+                                        442 protein unavailable)
+(GNG Cheese, Cracker, Fruit & Nut Box: Calories
+                                        388 protein unavailable)
+(GNG Chicken Bacon Ranch Wrap: Calories
+                                        868 protein unavailable)
+(GNG Chicken Caesar Salad: Calories
+                                        463 protein unavailable)
+(GNG Chicken Caesar Wrap: Calories
+                                        681 protein unavailable)
+(GNG Dairy Free Yogurt Parfait: Calories
+                                        417 protein unavailable)
+(GNG GF Ham Sandwich Kit: Calories
+                                        564 protein unavailable)
+(GNG GF Turkey Sandwich Kit: Calories
+                                        533 protein unavailable)
+(GNG Grinder: Calories
+                                        711 protein unavailable)
+(GNG Hummus & Cracker Cup: Calories
+                                        357 protein unavailable)
+(GNG Mediterranean Wrap: Calories
+                                        511 protein unavailable)
+(GNG Pimento Cheese & Cracker Snack: Calories
+                                        494 protein unavailable)
+(GNG Roast Beef & Cheddar Sandwich: Calories
+                                        602 protein unavailable)
+(GNG Salami and Cheese Snack: Calories
+                                        332 protein unavailable)
+(GNG Smoked Chicken Salad Croissant: Calories
+                                        622 protein unavailable)
+(GNG Smoked Chicken Salad Cup: Calories
+                                        326 protein unavailable)
+(GNG Spicy Asian Chicken Wrap: Calories
+                                        575 protein unavailable)
+(GNG Spicy Lo Mein Noodle Bowl**: Calories
+                                        474 protein unavailable)
+(GNG Strawberries & Cream Cup: Calories
+                                        117 protein unavailable)
+(GNG Thai Vegan Wrap: Calories
+                                        594 protein unavailable)
+(GNG Turkey Chiptole Sandwich: Calories
+                                        387 protein unavailable)
+(Mediterranean Hummus and Veggie Box: Calories
+                                        254 protein unavailable)
+(Mixed Berry Parfait: Calories
+                                        262 protein unavailable)
+(Peanut Butter & Grape Jelly on White: Calories
+                                        585 protein unavailable)
+(Peanut Butter & Strawberry Jelly Sandwich: Calories
+                                        585 protein unavailable)
+(Pecan Pie: Calories
+                                        510 protein unavailable)
+(Pumpkin Pie: Calories
+                                        403 protein unavailable)
+(Salad, Caesar: Calories
+                                        331 protein unavailable)
+(Southwest Chicken Bowl: Calories
+                                        652 protein unavailable)
+(Steamed Eggs: Calories
+                                        264 protein unavailable)
+(Triple Chocolate Cheesecake: Calories
+                                        595 protein unavailable)
+(Vegan Chocolate Cake Slice: Calories
+                                        761 protein unavailable)
+(YES TO GO Chia Seed Pudding: Calories
+                                        261 protein unavailable)
+(YES TO GO Chia Seed Pudding with Berries: Calories
+                                        187 protein unavailable)
+(YES TO GO Fresh Grapes Cup: Calories
+                                        156 protein unavailable)
+(YES TO GO Fresh Pineapple Cup: Calories
+                                        57 protein unavailable)
+(YES TO GO Fresh Strawberry Cup: Calories
+                                        73 protein unavailable)
+(YES TO GO Salad Bowl - Garden: Calories
+                                        49 protein unavailable)
+(YES TO GO Veggie Bowl: Calories
+                                        239 protein unavailable)
+(YES TO GO Yogurt Blueberry Parfait: Calories
+                                        256 protein unavailable)
+(YES TO GO Yogurt Strawberry Parfait: Calories
+                                        264 protein unavailable)
+(YTG Grilled Chicken Protein Cup: Calories
+                                        132 protein unavailable)
+(YTG Two Berry Fruit Cup: Calories
+                                        60 protein unavailable)
+(California Roll Bento Box: Calories
+                                        677 protein unavailable)
+(Hokie Roll: Calories
+                                        271 protein unavailable)
+(Takuwan Vegetarian Roll: Calories
+                                        242 protein unavailable)
+(Garlic Mashed Potatoes: Calories
+                                        184 protein unavailable)
+(Grilled Tuna: Calories
+                                        342 protein unavailable)

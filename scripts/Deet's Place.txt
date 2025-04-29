@@ -1,0 +1,345 @@
+Dining Hall Name: Deet's Place
+(Asiago Bagel: Calories
+                                        282 protein unavailable)
+(Blueberry Bagel: Calories
+                                        300 protein unavailable)
+(Cinnamon Raisin Bagel: Calories
+                                        300 protein unavailable)
+(Everything Bagel: Calories
+                                        290 protein unavailable)
+(Plain Bagel: Calories
+                                        291 protein unavailable)
+(Whole Wheat Bagel: Calories
+                                        282 protein unavailable)
+(Apple Butter Danish: Calories
+                                        341 protein unavailable)
+(Blueberry Cheescake Danish: Calories
+                                        290 protein unavailable)
+(Butter Croissant: Calories
+                                        370 protein unavailable)
+(Chocolate Chip Muffin: Calories
+                                        781 protein unavailable)
+(Chocolate Croissant: Calories
+                                        300 protein unavailable)
+(Cinnamon Coffee Cake Muffin: Calories
+                                        781 protein unavailable)
+(Cranberry Orange Walnut Muffin: Calories
+                                        652 protein unavailable)
+(Cream Cheese Danish: Calories
+                                        464 protein unavailable)
+(Muffin, Banana Nut: Calories
+                                        772 protein unavailable)
+(Muffin, Blueberry: Calories
+                                        709 protein unavailable)
+(Muffin, Double Chocolate: Calories
+                                        680 protein unavailable)
+(Pumpkin Spice Danish: Calories
+                                        310 protein unavailable)
+(Roll, Cinnamon: Calories
+                                        601 protein unavailable)
+(Scone, Blueberry: Calories
+                                        388 protein unavailable)
+(Scone, Cinnamon: Calories
+                                        440 protein unavailable)
+(Strawberry Cheescake Danish: Calories
+                                        290 protein unavailable)
+(12 oz Brewed Coffee: Calories
+                                        21 protein unavailable)
+(12 oz Iced Coffee: Calories
+                                        19 protein unavailable)
+(16 oz Brewed Coffee: Calories
+                                        29 protein unavailable)
+(16 oz Iced Coffee: Calories
+                                        25 protein unavailable)
+(20 oz Brewed Coffee: Calories
+                                        36 protein unavailable)
+(20 oz Iced Coffee: Calories
+                                        31 protein unavailable)
+(Espresso Shot: Calories
+                                        2 protein unavailable)
+(Espresso Shot: Calories
+                                        4 protein unavailable)
+(Espresso Shot: Calories
+                                        6 protein unavailable)
+(12 oz Chai: Calories
+                                        215 protein unavailable)
+(16 oz Chai: Calories
+                                        287 protein unavailable)
+(20 oz Chai: Calories
+                                        358 protein unavailable)
+(12 oz Americano: Calories
+                                        4 protein unavailable)
+(16 oz Americano: Calories
+                                        6 protein unavailable)
+(20 oz Americano: Calories
+                                        8 protein unavailable)
+(12 oz Cafe Aulait: Calories
+                                        7 protein unavailable)
+(16 oz Cafe Aulait: Calories
+                                        114 protein unavailable)
+(20 oz Cafe Aulait: Calories
+                                        147 protein unavailable)
+(12 oz Cappuccino: Calories
+                                        89 protein unavailable)
+(16 oz Cappuccino: Calories
+                                        79 protein unavailable)
+(20 oz Cappuccino: Calories
+                                        151 protein unavailable)
+(12 oz Caramel Macchiato: Calories
+                                        297 protein unavailable)
+(16 oz Caramel Macchiato: Calories
+                                        370 protein unavailable)
+(20 oz Caramel Macchiato: Calories
+                                        444 protein unavailable)
+(12 oz Hot Chocolate: Calories
+                                        263 protein unavailable)
+(16 oz Hot Chocolate: Calories
+                                        336 protein unavailable)
+(20 oz Hot Chocolate: Calories
+                                        431 protein unavailable)
+(12 oz Flavored Latte: Calories
+                                        188 protein unavailable)
+(12 oz Latte: Calories
+                                        133 protein unavailable)
+(16 oz Flavored Latte: Calories
+                                        264 protein unavailable)
+(16 oz Latte: Calories
+                                        179 protein unavailable)
+(20 oz Flavored Latte: Calories
+                                        336 protein unavailable)
+(20 oz Latte: Calories
+                                        223 protein unavailable)
+(12 oz Mocha Latte: Calories
+                                        200 protein unavailable)
+(16 oz Mocha Latte: Calories
+                                        283 protein unavailable)
+(20 oz Mocha Latte: Calories
+                                        362 protein unavailable)
+(12 oz Phrappuccino: Calories
+                                        190 protein unavailable)
+(16 oz Phrappuccino: Calories
+                                        232 protein unavailable)
+(20 oz Phrappuccino: Calories
+                                        316 protein unavailable)
+(12 oz Cold Brew Coffee: Calories
+                                        1 protein unavailable)
+(16 oz Cold Brew Coffee: Calories
+                                        1 protein unavailable)
+(20 oz Cold Brew Coffee: Calories
+                                        1 protein unavailable)
+(12 oz Italian Soda: Calories
+                                        69 protein unavailable)
+(16 oz Italian Soda: Calories
+                                        105 protein unavailable)
+(20 oz Italian Soda: Calories
+                                        141 protein unavailable)
+(Assorted Herbal Hot Tea: Calories
+                                        5 protein unavailable)
+(Berry Berry Tea Concentrate: Calories
+                                        0 protein unavailable)
+(Decaf Earl Grey Tea Concentrate: Calories
+                                        0 protein unavailable)
+(Hibiscus Tea Concentrate: Calories
+                                        0 protein unavailable)
+(Jasmine Tea Concentrate: Calories
+                                        0 protein unavailable)
+(Almond Milk: Calories
+                                        60 protein unavailable)
+(Half and Half: Calories
+                                        307 protein unavailable)
+(Oat Milk: Calories
+                                        140 protein unavailable)
+(Skim Milk: Calories
+                                        83 protein unavailable)
+(Soy Milk: Calories
+                                        79 protein unavailable)
+(Whole Milk: Calories
+                                        149 protein unavailable)
+(Apple Syrup: Calories
+                                        105 protein unavailable)
+(Blackberry Syrup: Calories
+                                        55 protein unavailable)
+(Blueberry Syrup: Calories
+                                        55 protein unavailable)
+(Cane Sugar: Calories
+                                        70 protein unavailable)
+(Caramel Italian Syrup: Calories
+                                        70 protein unavailable)
+(Cherry Syrup: Calories
+                                        70 protein unavailable)
+(Cinnamon Syrup: Calories
+                                        0 protein unavailable)
+(Hazelnut Syrup: Calories
+                                        70 protein unavailable)
+(Huckleberry Syrup: Calories
+                                        55 protein unavailable)
+(Irish Creme Syrup: Calories
+                                        70 protein unavailable)
+(Passion Fruit Syrup: Calories
+                                        55 protein unavailable)
+(Peach Syrup: Calories
+                                        70 protein unavailable)
+(Pina Colada Syrup: Calories
+                                        70 protein unavailable)
+(Raspberry Syrup: Calories
+                                        80 protein unavailable)
+(Strawberry Syrup: Calories
+                                        70 protein unavailable)
+(Sugar Free Caramel Syrup: Calories
+                                        0 protein unavailable)
+(Sugar Free Sweetener Syrup: Calories
+                                        0 protein unavailable)
+(Sugar Free Vanilla Syrup: Calories
+                                        0 protein unavailable)
+(Sugar Free White Chocolate Syrup: Calories
+                                        0 protein unavailable)
+(Tiramisu Syrup: Calories
+                                        70 protein unavailable)
+(Toasted Marshmallow Syrup: Calories
+                                        69 protein unavailable)
+(Vanilla Syrup: Calories
+                                        70 protein unavailable)
+(Bursting Green Apple Boba: Calories
+                                        58 protein unavailable)
+(Bursting Honey Boba: Calories
+                                        49 protein unavailable)
+(Bursting Pomegranate Boba: Calories
+                                        59 protein unavailable)
+(Chili Pepper Bursting Boba: Calories
+                                        49 protein unavailable)
+(Tomato Basil Soup: Calories
+                                        154 protein unavailable)
+(Flatbread Panini, Cheese Pizza: Calories
+                                        691 protein unavailable)
+(Flatbread Panini, Pepperoni: Calories
+                                        923 protein unavailable)
+(Panini, Mozzarella: Calories
+                                        907 protein unavailable)
+(Panini, Southwest Chicken: Calories
+                                        907 protein unavailable)
+(Apple Pie: Calories
+                                        400 protein unavailable)
+(Chocolate Chunk Cookie: Calories
+                                        568 protein unavailable)
+(Chocolate Meringue Pie: Calories
+                                        465 protein unavailable)
+(Crumb Cake, Apple Caramel: Calories
+                                        760 protein unavailable)
+(Crumb Cake, Butter: Calories
+                                        420 protein unavailable)
+(Crumb Cake, Raspberry: Calories
+                                        670 protein unavailable)
+(Fruit of the Forest Pie: Calories
+                                        301 protein unavailable)
+(GNG Double Chocolate Brownie: Calories
+                                        586 protein unavailable)
+(GNG Espresso Brownie: Calories
+                                        572 protein unavailable)
+(GNG German Chocolate Brownie: Calories
+                                        714 protein unavailable)
+(GNG Reese's Brownie: Calories
+                                        803 protein unavailable)
+(M and M Cookie: Calories
+                                        558 protein unavailable)
+(Reese's Cookie: Calories
+                                        628 protein unavailable)
+(Salted Caramel Cookie: Calories
+                                        580 protein unavailable)
+(Smores Cookie: Calories
+                                        540 protein unavailable)
+(Caramel Cookie Twist Ice Cream: Calories
+                                        286 protein unavailable)
+(Chocolate Chip Cookie Dough Ice Cream: Calories
+                                        264 protein unavailable)
+(Chocolate Ice Cream: Calories
+                                        231 protein unavailable)
+(Coffee Ice Cream: Calories
+                                        231 protein unavailable)
+(Cookies and Cream Ice Cream: Calories
+                                        253 protein unavailable)
+(Graham Central Station Ice Cream: Calories
+                                        319 protein unavailable)
+(Green Mint Chip Ice Cream: Calories
+                                        253 protein unavailable)
+(Key Lime Pie Ice Cream: Calories
+                                        264 protein unavailable)
+(Lemon Sorbet: Calories
+                                        142 protein unavailable)
+(Lil' Blue Panda Ice Cream: Calories
+                                        308 protein unavailable)
+(Raspberry Sorbet: Calories
+                                        142 protein unavailable)
+(Roadrunner Raspberry Ice Cream: Calories
+                                        253 protein unavailable)
+(Salty Caramel Truffle Ice Cream: Calories
+                                        275 protein unavailable)
+(Strawberry Ice Cream: Calories
+                                        113 protein unavailable)
+(Sugar Cookie Ice Cream: Calories
+                                        297 protein unavailable)
+(Vanilla Ice Cream: Calories
+                                        192 protein unavailable)
+(Caramel Sauce: Calories
+                                        124 protein unavailable)
+(Hot Fudge Sauce: Calories
+                                        246 protein unavailable)
+(Strawberry Sauce: Calories
+                                        47 protein unavailable)
+(Topping, Hershey's Syrup: Calories
+                                        83 protein unavailable)
+(Whipped Topping: Calories
+                                        11 protein unavailable)
+(Brown Sugar Pearls: Calories
+                                        25 protein unavailable)
+(Bursting Blueberry Boba: Calories
+                                        58 protein unavailable)
+(Bursting Dragon Fruit Boba: Calories
+                                        19 protein unavailable)
+(Bursting Lychee Fruit Boba: Calories
+                                        60 protein unavailable)
+(Bursting Mango Boba: Calories
+                                        47 protein unavailable)
+(Bursting Passion Fruit Boba: Calories
+                                        59 protein unavailable)
+(Bursting Peach Boba: Calories
+                                        60 protein unavailable)
+(Bursting Pink Rose Boba: Calories
+                                        49 protein unavailable)
+(Bursting Strawberry Boba: Calories
+                                        59 protein unavailable)
+(Crystal Rainbow Boba: Calories
+                                        40 protein unavailable)
+(Crystal Taro Boba: Calories
+                                        40 protein unavailable)
+(Maraschino Cherry: Calories
+                                        6 protein unavailable)
+(Topping, Butterfinger: Calories
+                                        130 protein unavailable)
+(Topping, Heath Bar: Calories
+                                        151 protein unavailable)
+(Topping, M & M's: Calories
+                                        139 protein unavailable)
+(Topping, Mini Chocolate Chips: Calories
+                                        136 protein unavailable)
+(Topping, Oreo Cookie: Calories
+                                        137 protein unavailable)
+(Topping, Rainbow Sprinkles: Calories
+                                        37 protein unavailable)
+(Topping, Reese's Pieces: Calories
+                                        132 protein unavailable)
+(Banana Split: Calories
+                                        959 protein unavailable)
+(Ice Cream: Calories
+                                        253 protein unavailable)
+(Ice Cream: Calories
+                                        506 protein unavailable)
+(Ice Cream Soda: Calories
+                                        272 protein unavailable)
+(Ice Cream Sundae, Large: Calories
+                                        389 protein unavailable)
+(Ice Cream Sundae, Small: Calories
+                                        328 protein unavailable)
+(Milkshake, Average: Calories
+                                        707 protein unavailable)
+(Waffle Cone: Calories
+                                        110 protein unavailable)
