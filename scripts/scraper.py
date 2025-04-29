@@ -69,6 +69,7 @@ def write_dining_file(location_url, dir_path):
     soup = BeautifulSoup(response.text, 'html.parser')
 
     hall_name = soup.find(id="dining_center_name_container").text.strip()
+    hall_name = hall_name.replace("/", "or")
     file_text += "Dining Hall Name: " + hall_name + "\n"
     file_name = hall_name + ".txt"
 
