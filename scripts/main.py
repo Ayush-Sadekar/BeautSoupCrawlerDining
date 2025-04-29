@@ -55,6 +55,7 @@ if (date_string != dateText):
 
     id = 0
     for file in dining_file_paths:
+        file = os.path.join(dir_path, file)
         text = get_text(file)
         documents.append(text)
         ids.append(f"doc_{id}")
