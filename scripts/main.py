@@ -67,6 +67,8 @@ if (date_string != dateText):
         ids=ids
     )
 
+    # add a persist to save the collection locally. This will be used throughout the day after the first scrape
+
     query = input("What are your nutrition goals for today?\n>>>")
 
     closestPages = collection.query(
@@ -93,6 +95,8 @@ if (date_string != dateText):
 
     print(response["message"]["content"])
 else:
+    
+    # replace these lines with persistent client so we don't have to initialize a new db every time  
     chroma_client = chromadb.Client()
     collection = chroma_client.get_or_create_collection("RestaurantCollection")
 
