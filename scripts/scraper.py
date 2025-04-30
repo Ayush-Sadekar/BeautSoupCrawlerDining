@@ -93,7 +93,7 @@ def write_dining_file(location_url, dir_path):
                 else:
                     item_Name = new_soup.find(id="recipe_title").text.strip()
                     calories = new_soup.find(id="calories_container").text.strip()
-                    file_text += "(" + item_Name + ": " + calories + " "
+                    file_text += "(" + item_Name + ": " + calories + " " + "Dining Hall Location: " + hall_name
                     
                     protein = new_soup.find('p', class_ = "col-lg-12")
                     if protein is None:
