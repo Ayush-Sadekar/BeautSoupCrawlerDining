@@ -72,7 +72,6 @@ if (date_string != dateText):
         # get/create DB client and update documents
         chroma_client = chromadb.PersistentClient(path=chroma_path)
         collection = chroma_client.get_or_create_collection("Dining_Collection")
-        collection.delete()
 
         documents = []
         ids = []
@@ -86,7 +85,7 @@ if (date_string != dateText):
 
             id += 1
 
-        collection.add(
+        collection.upsert(
             documents=documents,
             ids=ids
         )
