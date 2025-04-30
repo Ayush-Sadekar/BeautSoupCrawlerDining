@@ -44,7 +44,7 @@ def delete_files_in_folder(folder_path):
             if os.path.isfile(file_path):
                 # delete file
                 os.remove(file_path)
-                print(f"Deleted: {file_path}")
+                #print(f"Deleted: {file_path}")
             
         print(f"All files in {folder_path} have been deleted.")
         
@@ -78,7 +78,7 @@ if (date_string != dateText):
 
         id = 0
         for file in dining_file_paths:
-            file = os.path.join(dir_path, file)
+            file = os.path.join(d_file_path, file)
             text = get_text(file)
             documents.append(text)
             ids.append(f"doc_{id}")
