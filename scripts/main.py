@@ -1,144 +1,109 @@
-from bs4 import BeautifulSoup
-import requests
-import urllib
-import time
 import os
-import ollama
 import chromadb
 from sentence_transformers import SentenceTransformer
 from datetime import date
-
+import shutil
 from scraper import scrape_vt_dining_locations, write_dining_file
+from LLM_stuff import query_func
 
+# directories
 dir_path = "/Users/ayush/Desktop/BeautSoupCrawlerDining/scripts"
-date_path = "date.txt"
+date_path = os.path.join(dir_path, "date.txt")
+chroma_path = os.path.join(dir_path, "ChromaClient")
 
-full_path = os.path.join(dir_path, date_path)
+chroma_client = chromadb.PersistentClient(path=chroma_path)
 
 dateText = ""
 
-with open(full_path, 'r', encoding='utf-8') as file:
-    dateText = file.read()
+try:
+    with open(date_path, 'r', encoding='utf-8') as file:
+        dateText = file.read()
+except FileNotFoundError:
+    dateText = ""
 
 today = date.today()
-
 date_string = today.strftime("%Y-%m-%d")
-
-
-dining_file_paths = []
 
 
 def get_text(path):
     with open(path, 'r', encoding='utf-8') as f:
         return f.read()
 
+def delete_files_in_folder(folder_path):
+    try:
+        # check if folder exists
+        if not os.path.exists(folder_path):
+            print(f"The folder {folder_path} does not exist.")
+            return
+        
+        # check each file
+        for filename in os.listdir(folder_path):
+            file_path = os.path.join(folder_path, filename)
+            
+            # check if it is a file
+            if os.path.isfile(file_path):
+                # delete file
+                os.remove(file_path)
+                print(f"Deleted: {file_path}")
+            
+        print(f"All files in {folder_path} have been deleted.")
+        
+    except Exception as e:
+        print(f"An error occurred: {e}")
+
 if (date_string != dateText):
 
-    with open(full_path, 'w') as date_file:
+    with open(date_path, 'w') as date_file:
         date_file.write(date_string)
     
-    dining_halls = scrape_vt_dining_locations("https://foodpro.students.vt.edu/menus/")
-    dir_path = "/Users/ayush/Desktop/BeautSoupCrawlerDining/scripts"
+    delete_files_in_folder("/Users/ayush/Desktop/BeautSoupCrawlerDining/DiningHalls")
+    
+    try:
+    
+        # scrape dining hall websites
+        dining_halls = scrape_vt_dining_locations("https://foodpro.students.vt.edu/menus/")
+        dining_file_paths = []
 
-    dining_file_paths.clear()
+        d_file_path = "/Users/ayush/Desktop/BeautSoupCrawlerDining/DiningHalls"
 
-    for hall in dining_halls:
-        dining_file_paths.append(write_dining_file(hall, dir_path))
+        for hall in dining_halls:
+            dining_file_paths.append(write_dining_file(hall, d_file_path))
 
+        # get/create DB client and update documents
+        chroma_client = chromadb.PersistentClient(path=chroma_path)
+        collection = chroma_client.get_or_create_collection("Dining_Collection")
+        collection.delete()
 
-    chroma_client = chromadb.Client()
-    collection = chroma_client.get_or_create_collection("RestaurantCollection")
+        documents = []
+        ids = []
 
+        id = 0
+        for file in dining_file_paths:
+            file = os.path.join(dir_path, file)
+            text = get_text(file)
+            documents.append(text)
+            ids.append(f"doc_{id}")
 
-    documents = []
-    ids = []
+            id += 1
 
-    id = 0
-    for file in dining_file_paths:
-        file = os.path.join(dir_path, file)
-        text = get_text(file)
-        documents.append(text)
-        ids.append(f"doc_{id}")
+        collection.add(
+            documents=documents,
+            ids=ids
+        )
 
-        id += 1
+        # get user query and feed to LLM for a response
+        query = input("What are your nutrition goals for today?\n>>>")
+        query_func(query, collection)
 
-    collection.add(
-        documents=documents,
-        ids=ids
-    )
+    except Exception as e:
+        print(f"Error updating dining information: {e}")
 
-    # add a persist to save the collection locally. This will be used throughout the day after the first scrape
-
-    query = input("What are your nutrition goals for today?\n>>>")
-
-    closestPages = collection.query(
-        query_texts=[query],
-        n_results=4
-    )
-
-    system_messages = []
-    for doc in closestPages["documents"][0]:
-        system_messages.append({
-            "role": "system",
-            "content": doc
-        })
-
-    messages = system_messages + [{
-        "role":"user",
-        "content": query
-    }]
-
-    response = ollama.chat(
-        model="llama3.2",
-        messages=messages
-    )
-
-    print(response["message"]["content"])
 else:
     
-    # replace these lines with persistent client so we don't have to initialize a new db every time  
-    chroma_client = chromadb.Client()
-    collection = chroma_client.get_or_create_collection("RestaurantCollection")
-
-
-    documents = []
-    ids = []
-
-    id = 0
-    for file in dining_file_paths:
-        text = get_text(file)
-        documents.append(text)
-        ids.append(f"doc_{id}")
-
-        id += 1
-
-    collection.add(
-        documents=documents,
-        ids=ids
-    )
+    # Only need to scrape once per day. Just load persistent client, which saves documents and ids from first scrape
+    chroma_client = chromadb.PersistentClient(path=chroma_path)
+    collection = chroma_client.get_collection("Dining_Collection")
 
     query = input("What are your nutrition goals for today?\n>>>")
 
-    closestPages = collection.query(
-        query_texts=[query],
-        n_results=4
-    )
-
-    system_messages = []
-    for doc in closestPages["documents"][0]:
-        system_messages.append({
-            "role": "system",
-            "content": doc
-        })
-
-    messages = system_messages + [{
-        "role":"user",
-        "content": query
-    }]
-
-    response = ollama.chat(
-        model="llama3.2",
-        messages=messages
-    )
-
-    print(response["message"]["content"])
+    query_func(query, collection)
