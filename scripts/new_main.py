@@ -11,6 +11,7 @@ date_path = os.path.join(dir_path, "date.txt")
 chroma_path = os.path.join(dir_path, "ChromaClient")
 
 chroma_client = chromadb.PersistentClient(path=chroma_path)
+embedding_model = SentenceTransformer("all-MiniLM-L6-v2")
 
 dateText = ""
 
@@ -33,7 +34,7 @@ if (date_string != dateText):
         dining_halls = scrape_vt_dining_locations("https://foodpro.students.vt.edu/menus/")
 
         chroma_client = chromadb.PersistentClient(path=chroma_path)
-        collection = chroma_client.get_or_create_collection("Dining_Collection")
+        collection = chroma_client.get_or_create_collection("Dining_Collection", embedding_function=embedding_model)
 
         current_id = 0
 
