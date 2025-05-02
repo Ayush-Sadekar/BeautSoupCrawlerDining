@@ -147,6 +147,8 @@ def get_item_and_metadata(location_url):
                 calories = new_soup.find(id="calories_container").text.strip()
                 ingredients = new_soup.find(id="ingredients_container").text.strip()
 
+                # potentially have LLM generate a relevant cuisine to add as metadata
+
                 item_dict[item_Name] = {"Location": hall_name, "Calories": calories, "Ingredients": ingredients}
     
     return item_dict
