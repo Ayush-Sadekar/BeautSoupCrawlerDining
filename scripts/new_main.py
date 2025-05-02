@@ -39,5 +39,17 @@ if (date_string != dateText):
 
         for hall in dining_halls:
             hall_dict = get_item_and_metadata(hall)
+            current_id = process_data(collection, hall_dict, current_id)
+        
+        query = input("What are your nutrition goals for today?\n>>>")
+        query_func(query, collection)
 
-            
+    except Exception as e:
+        print(f"Error updating dining information: {e}")
+    
+else:
+    chroma_client = chromadb.PersistentClient(path=chroma_path)
+    collection = chroma_client.get_collection("Dining_Collection")
+
+    query = input("What are your nutrition goals for today?\n>>>")
+    query_func(query, collection)
