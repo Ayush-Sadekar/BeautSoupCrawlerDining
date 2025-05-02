@@ -34,7 +34,7 @@ if (date_string != dateText):
         dining_halls = scrape_vt_dining_locations("https://foodpro.students.vt.edu/menus/")
 
         chroma_client = chromadb.PersistentClient(path=chroma_path)
-        collection = chroma_client.get_or_create_collection("Dining_Collection", embedding_function=embedding_model)
+        collection = chroma_client.get_or_create_collection("Dining_Collection")
 
         current_id = 0
 
