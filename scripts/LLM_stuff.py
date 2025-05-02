@@ -27,3 +27,6 @@ def query_func(query, collection, n_results=3):
     )
 
     print(response["message"]["content"])
+
+def process_data(collection, item_dict, current_id):
+    pass

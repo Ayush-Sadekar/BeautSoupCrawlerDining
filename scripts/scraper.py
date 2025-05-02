@@ -113,6 +113,43 @@ def write_dining_file(location_url, dir_path):
 
 def get_hours(url):
     
-    response = requests.get(url)
-    soup = BeautifulSoup(response, 'html.parser')
+    pass
+
+# new function to use that implements metadata
+def get_item_and_metadata(location_url):
+
+    item_dict = {}
+
+    response = requests.get(location_url)
+    soup = BeautifulSoup(response.text, 'html.parser')
+
+    hall_name = soup.find(id="dining_center_name_container").text.strip()
+
+    links = soup.find_all('a', href=True)
+    food_items = set()
+
+    for link in links:
+        
+        href = link['href']
+        absolute_url = urllib.parse.urljoin(location_url, href)
+
+        if "label.aspx?locationNum=" in absolute_url and absolute_url not in food_items:
+            
+            new_response = requests.get(absolute_url)
+            new_soup = BeautifulSoup(new_response.text, "html.parser")
+
+            recipe_title = new_soup.find(id="recipe_title")
+
+            if recipe_title is None:
+                pass
+            else:
+                item_Name = new_soup.find(id="recipe_title").text.strip()
+                calories = new_soup.find(id="calories_container").text.strip()
+                ingredients = new_soup.find(id="ingredients_container").text.strip()
+
+                item_dict[item_Name] = {"Location": hall_name, "Calories": calories, "Ingredients": ingredients}
+    
+    return item_dict
+
+
 
