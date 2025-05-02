@@ -24,6 +24,8 @@ except FileNotFoundError:
 today = date.today()
 date_string = today.strftime("%Y-%m-%d")
 
+collection = None
+
 if (date_string != dateText):
 
     with open(date_path, 'w') as date_file:
@@ -52,5 +54,11 @@ else:
     chroma_client = chromadb.PersistentClient(path=chroma_path)
     collection = chroma_client.get_collection("Dining_Collection")
 
-    query = input("What are your nutrition goals for today?\n>>>")
+query = input("What are your nutrition goals for today? (Enter 'q' to quit)\n>>>")
+
+while query.lower() != 'q':
+
     query_func(query, collection)
+    query = input("\nAny further questions? (Enter 'q' to quit)\n>>>")
+
+print("I hope my information helped!")
