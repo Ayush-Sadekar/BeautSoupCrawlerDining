@@ -1,6 +1,4 @@
 import ollama
-import chromadb
-from sentence_transformers import SentenceTransformer
 
 def query_func(query, collection, n_results=3):
 
@@ -29,4 +27,24 @@ def query_func(query, collection, n_results=3):
     print(response["message"]["content"])
 
 def process_data(collection, item_dict, current_id):
-    pass
+
+    documents = list(item_dict.keys())
+
+    metadata = []
+
+    for data in item_dict.values():
+        metadata.append(data)
+    
+    ids = []
+
+    for item in documents:
+        ids.append(f"doc_{current_id}")
+        current_id += 1
+    
+    collection.upsert(
+        documents=documents,
+        metadatas=metadata,
+        ids=ids
+    )
+
+    return current_id
