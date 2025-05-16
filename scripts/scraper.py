@@ -150,6 +150,8 @@ def get_item_and_metadata(location_url):
                 # potentially have LLM generate a relevant cuisine to add as metadata
 
                 item_dict[item_Name] = {"Location": hall_name, "Calories": calories, "Ingredients": ingredients}
+            
+            food_items.add(absolute_url)
     
     return item_dict
 
