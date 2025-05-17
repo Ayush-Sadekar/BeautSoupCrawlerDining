@@ -5,6 +5,7 @@ import os
 from scraper import scrape_vt_dining_locations, get_item_and_metadata
 from LLM_stuff import query_func, process_data
 from flask import Flask, request, jsonify, render_template
+import modal
 
 # directories
 dir_path = "/Users/ayush/Desktop/BeautSoupCrawlerDining/scripts"
