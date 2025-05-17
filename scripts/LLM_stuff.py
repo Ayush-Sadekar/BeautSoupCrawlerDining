@@ -24,7 +24,7 @@ def query_func(query, collection, n_results=3):
         messages=messages
     )
 
-    print(response["message"]["content"])
+    return response["message"]["content"]
 
 def process_data(collection, item_dict, current_id):
 
