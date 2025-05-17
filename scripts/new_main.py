@@ -61,4 +61,4 @@ while query.lower() != 'q':
     query_func(query, collection)
     query = input("\nAny further questions? (Enter 'q' to quit)\n>>>")
 
-print("I hope my information helped!")
+print("I hope this information helped!")
