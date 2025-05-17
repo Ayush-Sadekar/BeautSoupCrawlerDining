@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Query System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        .query-container {
+            margin: 20px 0;
+        }
+        #query-input {
+            width: 70%;
+            padding: 10px;
+            font-size: 16px;
+        }
+        #search-button {
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        #search-button:hover {
+            background-color: #45a049;
+        }
+        #result {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f9f9f9;
+            border-left: 4px solid #4CAF50;
+        }
+        .loading {
+            display: none;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Simple Query System</h1>
+    <p>Enter your question below:</p>
+    
+    <div class="query-container">
+        <input type="text" id="query-input" placeholder="Your question...">
+        <button id="search-button">Search</button>
+    </div>
+    
+    <div class="loading" id="loading">Processing your query...</div>
+    
+    <div id="result"></div>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const searchButton = document.getElementById('search-button');
+            const queryInput = document.getElementById('query-input');
+            const resultDiv = document.getElementById('result');
+            const loadingDiv = document.getElementById('loading');
+            
+            // Function to handle the search when button is clicked
+            searchButton.addEventListener('click', performSearch);
+            
+            // Also trigger search when Enter key is pressed in the input field
+            queryInput.addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') {
+                    performSearch();
+                }
+            });
+            
+            function performSearch() {
+                const query = queryInput.value.trim();
+                
+                if (!query) {
+                    return; // Don't search if query is empty
+                }
+                
+                // Show loading indicator
+                loadingDiv.style.display = 'block';
+                resultDiv.textContent = '';
+                
+                // Send the query to the backend API
+                fetch('/api/query', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ query: query })
+                })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    // Hide loading indicator
+                    loadingDiv.style.display = 'none';
+                    
+                    // Display the response string
+                    resultDiv.textContent = data.response;
+                })
+                .catch(error => {
+                    loadingDiv.style.display = 'none';
+                    resultDiv.textContent = `Error: ${error.message}`;
+                    console.error('Error:', error);
+                });
+            }
+        });
+    </script>
+</body>
+</html>
