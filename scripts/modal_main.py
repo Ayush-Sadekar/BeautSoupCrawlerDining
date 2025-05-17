@@ -1,7 +1,12 @@
 import modal
+import subprocess
+import time
+from modal import build, enter, method
 
 app = modal.App("VT-Dining-Assistant")
-image = modal.Image.debian_slim().pip_install(
+image = modal.Image.debian_slim().apt_install(
+    "curl"
+).pip_install(
     "flask",
     "chromadb",
     "datetime",
@@ -11,7 +16,11 @@ image = modal.Image.debian_slim().pip_install(
     "scraper",
     "LLM_stuff",
     copy=True
-).add_local_dir("/Users/ayush/Desktop/BeautSoupCrawlerDining/scripts", remote_path="/scripts", copy=True)
+).add_local_dir("/Users/ayush/Desktop/BeautSoupCrawlerDining/scripts", remote_path="/root", copy=True
+    ).run_commands(
+    "curl -fsSL https://ollama.com/install.sh | sh",
+    "ollama serve &"
+)
 
 @app.function(image=image)
 @modal.concurrent(max_inputs=100)
@@ -61,8 +70,8 @@ def flask_app():
                 hall_dict = get_item_and_metadata(hall)
                 current_id = process_data(collection, hall_dict, current_id)
             
-            query = input("What are your nutrition goals for today?\n>>>")
-            query_func(query, collection)
+            #query = input("What are your nutrition goals for today?\n>>>")
+            #query_func(query, collection)
 
         except Exception as e:
             print(f"Error updating dining information: {e}")
@@ -74,6 +83,8 @@ def flask_app():
 
     @web_app.route('/')
     def home():
+        print(f"The current directory is {os.getcwd()}")
+        print(f"{os.listdir()}")        
         return render_template('index.html')
 
     @web_app.route('/api/query', methods = ['POST'])
