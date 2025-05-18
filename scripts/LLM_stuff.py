@@ -48,3 +48,24 @@ def process_data(collection, item_dict, current_id):
     )
 
     return current_id
+
+def query_func_messages(query, collection, n_results=3):
+
+    closestPages = collection.query(
+        query_texts = [query],
+        n_results = n_results
+    )
+
+    system_messages = []
+    for doc in closestPages["documents"][0]:
+        system_messages.append({
+            "role": "system",
+            "content": doc
+        })
+
+    messages = system_messages + [{
+        "role":"user",
+        "content": query
+    }]
+
+    return messages

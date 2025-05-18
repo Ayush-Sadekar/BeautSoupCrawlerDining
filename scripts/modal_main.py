@@ -14,10 +14,16 @@ def pull(model: str = MODEL):
     subprocess.run(["ollama", "pull", model], stdout=subprocess.PIPE, check=True)
 
 
-app = modal.App("VT-Dining-Assistant")
-image = modal.Image.debian_slim().apt_install(
-    "curl",
+image = modal.Image.debian_slim(python_version="3.12").apt_install(
+    "curl",    
     "systemctl"
+).run_commands(
+    "curl -L https://github.com/ollama/ollama/releases/download/v0.6.2/ollama-linux-amd64.tgz -o ollama-linux-amd64.tgz",
+    "tar -C /usr -xzf ollama-linux-amd64.tgz",
+    "useradd -r -s /bin/false -U -m -d /usr/share/ollama ollama",
+    "usermod -a -G ollama $(whoami)",
+).add_local_file(
+    "ollama.service", "/etc/systemd/system/ollama.service", copy=True
 ).pip_install(
     "flask",
     "chromadb",
@@ -30,14 +36,38 @@ image = modal.Image.debian_slim().apt_install(
     copy=True
 ).add_local_dir(
     "/Users/ayush/Desktop/BeautSoupCrawlerDining/scripts", remote_path="/root", copy=True
-    ).run_commands(
-    "curl -L https://github.com/ollama/ollama/releases/download/v0.6.2/ollama-linux-amd64.tgz -o ollama-linux-amd64.tgz",
-    "tar -C /usr -xzf ollama-linux-amd64.tgz",
-    "useradd -r -s /bin/false -U -m -d /usr/share/ollama ollama",
-    "usermod -a -G ollama $(whoami)",
-).add_local_file(
-    "ollama.service", "/etc/systemd/system/ollama.service", copy=True
-    ).run_function(pull, force_build=True)
+).run_function(
+    pull, force_build=True
+)
+
+app = modal.App("VT-Dining-Assistant", image=image)
+
+with image.imports():
+    import ollama
+
+MINUTES = 60
+
+# @app.cls(
+#     gpu="A10",
+#     scaledown_window=5 * MINUTES,
+#     timeout=60 * MINUTES,
+#     volumes={
+#         "/cache": modal.Volume.from_name("hf-hub-cache", create_if_missing=True),
+#     },
+# )
+
+@app.cls()
+class Ollama:
+    @modal.enter()
+    def enter(self):
+        print("Starting the ollama service")
+        subprocess.run(["systemctl", "start", "ollama"], check=True)
+
+    @modal.method()
+    def infer(self, messages: list) -> str:
+        import ollama
+        response = ollama.chat(model=MODEL, messages=messages, stream=False)
+        return response["message"]["content"]
 
 @app.function(image=image)
 @modal.concurrent(max_inputs=100)
@@ -47,12 +77,14 @@ def flask_app():
     from datetime import date
     import os
     from scraper import scrape_vt_dining_locations, get_item_and_metadata
-    from LLM_stuff import query_func, process_data
+    from LLM_stuff import query_func, process_data, query_func_messages
     from flask import Flask, request, jsonify, render_template
+    import ollama
 
     dir_path = "/Users/ayush/Desktop/BeautSoupCrawlerDining/scripts"
     date_path = os.path.join(dir_path, "date.txt")
     chroma_path = os.path.join(dir_path, "ChromaClient")
+    my_ollama = Ollama()
 
     chroma_client = chromadb.PersistentClient(path=chroma_path)
 
@@ -112,8 +144,12 @@ def flask_app():
         if not query_text:
             return jsonify({'response':'Please enter a query'}), 400
         else:
-            return jsonify({'response': query_func(query_text, collection)})
-
+            return jsonify({'response': 
+                            my_ollama.infer.remote(
+                                query_func_messages(query_text, collection)
+                                )
+                            })
+    
     
     return web_app
     #if __name__ == '__main__':
