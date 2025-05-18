@@ -3,6 +3,7 @@ import requests
 import urllib
 import time
 import os
+from datetime import date
 
 # this function gets the link for each dining location (STILL USING THIS)
 def scrape_vt_dining_locations(base_url):
@@ -149,10 +150,9 @@ def get_item_and_metadata(location_url):
                     ingredients = "ingredients unavailable"
                 else:
                     ingredients = ingredients.text.strip()
-                protein = new_soup.find(class_ = "col-lg-12").text.strip()
-                print(protein)
+                protein = new_soup.find(class_ = "col-lg-12 daily_value protein").text.strip()
 
-                item_dict[item_Name] = {"Location": hall_name, "Calories": calories, "Ingredients": ingredients, "Protein": protein}
+                item_dict[item_Name] = {"Location": hall_name, "Calories": calories, "Ingredients": ingredients, "Protein": protein, "Date": date.today().strftime("%Y-%m-%d")}
             
             food_items.add(absolute_url)
     

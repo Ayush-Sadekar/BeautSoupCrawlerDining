@@ -1,4 +1,5 @@
 import ollama
+from datetime import date
 
 def query_func(query, collection, n_results=3):
 
@@ -28,6 +29,9 @@ def query_func(query, collection, n_results=3):
 
 def process_data(collection, item_dict, current_id):
 
+    if len(item_dict) <= 0:
+        return current_id
+    
     documents = list(item_dict.keys())
 
     metadata = []
@@ -53,7 +57,8 @@ def query_func_messages(query, collection, n_results=3):
 
     closestPages = collection.query(
         query_texts = [query],
-        n_results = n_results
+        n_results = n_results,
+        where={"metadata_field": date.today().strftime("%Y-%m-%d")}
     )
 
     system_messages = []

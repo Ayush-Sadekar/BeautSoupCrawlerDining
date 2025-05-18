@@ -5,6 +5,7 @@ import time
 import os
 import datetime
 from datetime import date
+import chromadb
 
 #with open("/Users/ayush/Desktop/BeautSoupCrawlerDining/scripts/nutritioninfo.txt", "w") as f:
     #f.write("LeBron James.")
@@ -16,20 +17,18 @@ from datetime import date
 #full_path = os.path.join(dir_path, file_name)
 # dir_path is the path to save all my stuff into, file_name will be appended to the end 
 
-today = date.today()
+dir_path = dir_path = "/Users/ayush/Desktop/BeautSoupCrawlerDining/scripts"
 
-string_date = today.strftime("%Y-%m-%d")
-dir_path = "/Users/ayush/Desktop/BeautSoupCrawlerDining/scripts"
-date_path = "date.txt"
+chroma_path = os.path.join(dir_path, "ChromaClient")
 
-full_path = os.path.join(dir_path, date_path)
+chroma_client = chromadb.PersistentClient(path=chroma_path)
 
-date = ""
+collection = chroma_client.get_collection("Dining_Collection")
 
-with open(full_path, 'r', encoding='utf-8') as file:
-    date = file.read()
+results = collection.query(
+    query_texts=["High calorie foods"],
+    n_results=5,
+    include=['documents', 'metadatas']
+)
 
-bool = (date == string_date)
-print(bool)
-print(date)
-print(string_date)
+print(results)
