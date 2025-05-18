@@ -2,10 +2,22 @@ import modal
 import subprocess
 import time
 from modal import build, enter, method
+import os
+
+MODEL = os.environ.get("MODEL", "llama3.2")
+
+def pull(model: str = MODEL):
+    subprocess.run(["systemctl", "daemon-reload"], check=True)
+    subprocess.run(["systemctl", "enable", "ollama"], check=True)
+    subprocess.run(["systemctl", "start", "ollama"], check=True)
+    time.sleep(2)  # Wait for the service to start
+    subprocess.run(["ollama", "pull", model], stdout=subprocess.PIPE, check=True)
+
 
 app = modal.App("VT-Dining-Assistant")
 image = modal.Image.debian_slim().apt_install(
-    "curl"
+    "curl",
+    "systemctl"
 ).pip_install(
     "flask",
     "chromadb",
@@ -16,11 +28,16 @@ image = modal.Image.debian_slim().apt_install(
     "scraper",
     "LLM_stuff",
     copy=True
-).add_local_dir("/Users/ayush/Desktop/BeautSoupCrawlerDining/scripts", remote_path="/root", copy=True
+).add_local_dir(
+    "/Users/ayush/Desktop/BeautSoupCrawlerDining/scripts", remote_path="/root", copy=True
     ).run_commands(
-    "curl -fsSL https://ollama.com/install.sh | sh",
-    "ollama serve &"
-)
+    "curl -L https://github.com/ollama/ollama/releases/download/v0.6.2/ollama-linux-amd64.tgz -o ollama-linux-amd64.tgz",
+    "tar -C /usr -xzf ollama-linux-amd64.tgz",
+    "useradd -r -s /bin/false -U -m -d /usr/share/ollama ollama",
+    "usermod -a -G ollama $(whoami)",
+).add_local_file(
+    "ollama.service", "/etc/systemd/system/ollama.service", copy=True
+    ).run_function(pull, force_build=True)
 
 @app.function(image=image)
 @modal.concurrent(max_inputs=100)
