@@ -4,7 +4,7 @@ import urllib
 import time
 import os
 
-# this function gets the link for each dining location
+# this function gets the link for each dining location (STILL USING THIS)
 def scrape_vt_dining_locations(base_url):
     
     response = requests.get(base_url)
@@ -27,12 +27,10 @@ def scrape_vt_dining_locations(base_url):
     
     return visited_urls
 
-#base_url = "https://foodpro.students.vt.edu/menus/"
-
-#location_menu_urls = scrape_vt_dining_locations(base_url)
 
 
 # this function gets the link for each menu item. Returns a dictionary. Each key is a dining hall, and it corresponds to a list of the link of each menu item
+# NOT USING THIS
 def get_menu_items(urls):
 
     link_dict = {}
@@ -60,7 +58,7 @@ def get_menu_items(urls):
     return link_dict
 
 #my_dict = get_menu_items(location_menu_urls)
-
+# NOT USING THIS
 def write_dining_file(location_url, dir_path):
 
     file_text = ""
@@ -116,6 +114,7 @@ def get_hours(url):
     pass
 
 # new function to use that implements metadata
+# USING THIS
 def get_item_and_metadata(location_url):
 
     item_dict = {}
@@ -145,15 +144,16 @@ def get_item_and_metadata(location_url):
             else:
                 item_Name = new_soup.find(id="recipe_title").text.strip()
                 calories = new_soup.find(id="calories_container").text.strip()
-                ingredients = new_soup.find(id="ingredients_container").text.strip()
+                ingredients = new_soup.find(class_="ingredients_container")
+                if ingredients is None:
+                    ingredients = "ingredients unavailable"
+                else:
+                    ingredients = ingredients.text.strip()
+                protein = new_soup.find(class_ = "col-lg-12").text.strip()
+                print(protein)
 
-                # potentially have LLM generate a relevant cuisine to add as metadata
-
-                item_dict[item_Name] = {"Location": hall_name, "Calories": calories, "Ingredients": ingredients}
+                item_dict[item_Name] = {"Location": hall_name, "Calories": calories, "Ingredients": ingredients, "Protein": protein}
             
             food_items.add(absolute_url)
     
     return item_dict
-
-
-
