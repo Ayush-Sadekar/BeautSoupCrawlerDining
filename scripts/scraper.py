@@ -28,92 +28,6 @@ def scrape_vt_dining_locations(base_url):
     
     return visited_urls
 
-
-
-# this function gets the link for each menu item. Returns a dictionary. Each key is a dining hall, and it corresponds to a list of the link of each menu item
-# NOT USING THIS
-def get_menu_items(urls):
-
-    link_dict = {}
-
-    for url in urls:
-
-        response = requests.get(url)
-        soup = BeautifulSoup(response.text, 'html.parser')
-
-        food_links = set()
-
-        hall_name = soup.find(id="dining_center_name_container").text.strip()
-
-        links = soup.find_all('a', href=True)
-
-        for link in links:
-            href = link['href']
-            absolute_url = urllib.parse.urljoin(url, href)
-
-            if "label.aspx?locationNum=" in absolute_url and absolute_url not in food_links:
-                food_links.add(absolute_url)
-
-        link_dict[hall_name] = food_links
-    
-    return link_dict
-
-#my_dict = get_menu_items(location_menu_urls)
-# NOT USING THIS
-def write_dining_file(location_url, dir_path):
-
-    file_text = ""
-
-    response = requests.get(location_url)
-    soup = BeautifulSoup(response.text, 'html.parser')
-
-    hall_name = soup.find(id="dining_center_name_container").text.strip()
-    hall_name = hall_name.replace("/", "or")
-    file_text += "Dining Hall Name: " + hall_name + "\n"
-    file_name = hall_name + ".txt"
-
-    links = soup.find_all('a', href=True)
-
-    food_items = set()
-
-    for link in links:
-            href = link['href']
-            absolute_url = urllib.parse.urljoin(location_url, href)
-
-            if "label.aspx?locationNum=" in absolute_url and absolute_url not in food_items:
-
-                new_response = requests.get(absolute_url)
-                new_soup = BeautifulSoup(new_response.text, "html.parser")
-
-                recipe_title = new_soup.find(id="recipe_title")
-                
-                if recipe_title is None:
-                    pass
-                else:
-                    item_Name = new_soup.find(id="recipe_title").text.strip()
-                    calories = new_soup.find(id="calories_container").text.strip()
-                    file_text += "(" + item_Name + ": " + calories + " " + "Dining Hall Location: " + hall_name
-                    
-                    protein = new_soup.find('p', class_ = "col-lg-12")
-                    if protein is None:
-                        protein = "protein unavailable"
-                    else:
-                        protein = new_soup.find('p', class_ = "col-lg-12").text.strip()
-                    file_text += protein + ")\n"
-
-
-                food_items.add(absolute_url)
-    
-    full_path = os.path.join(dir_path, file_name)
-    file = open(full_path, "w")
-    file.write(file_text)
-    file.close()
-    return file_name
-
-def get_hours(url):
-    
-    pass
-
 # new function to use that implements metadata
 # USING THIS
 def get_item_and_metadata(location_url):
@@ -144,16 +58,20 @@ def get_item_and_metadata(location_url):
                 pass
             else:
                 item_Name = new_soup.find(id="recipe_title").text.strip()
-                calories = new_soup.find(id="calories_container").text.strip()
+                calories = new_soup.find(id="calories_container").text.strip().replace("Calories\r\n", "").replace(" ", "")
                 ingredients = new_soup.find(class_="ingredients_container")
                 if ingredients is None:
                     ingredients = "ingredients unavailable"
                 else:
                     ingredients = ingredients.text.strip()
-                protein = new_soup.find(class_ = "col-lg-12 daily_value protein").text.strip()
+                protein = new_soup.find(class_ = "col-lg-12 daily_value protein").text.strip().replace("Protein ", "")
 
-                item_dict[item_Name] = {"Location": hall_name, "Calories": calories, "Ingredients": ingredients, "Protein": protein, "Date": date.today().strftime("%Y-%m-%d")}
+                item_dict[item_Name] = {"Dish": recipe_title, "Location": hall_name, "Calories": calories, "Ingredients": ingredients, "Protein": protein, "Date": date.today().strftime("%Y-%m-%d")}
             
             food_items.add(absolute_url)
     
     return item_dict
+
+url = "https://foodpro.students.vt.edu/menus/"
+
+locations = scrape_vt_dining_locations(url)

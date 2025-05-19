@@ -1,3 +1,4 @@
+# Running on a local host with Flask
 import chromadb
 from sentence_transformers import SentenceTransformer
 from datetime import date
@@ -45,8 +46,8 @@ if (date_string != dateText):
             hall_dict = get_item_and_metadata(hall)
             current_id = process_data(collection, hall_dict, current_id)
         
-        query = input("What are your nutrition goals for today?\n>>>")
-        query_func(query, collection)
+        #query = input("What are your nutrition goals for today?\n>>>")
+        #query_func(query, collection)
 
     except Exception as e:
         print(f"Error updating dining information: {e}")
@@ -74,13 +75,3 @@ if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5050))
 
     app.run(host='0.0.0.0', port=port, debug=False)
-
-
-#query = input("What are your nutrition goals for today? (Enter 'q' to quit)\n>>>")
-
-#while query.lower() != 'q':
-
-    #query_func(query, collection)
-    #query = input("\nAny further questions? (Enter 'q' to quit)\n>>>")
-
-#print("I hope this information helped!")

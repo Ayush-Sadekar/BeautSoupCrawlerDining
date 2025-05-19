@@ -26,9 +26,10 @@ chroma_client = chromadb.PersistentClient(path=chroma_path)
 collection = chroma_client.get_collection("Dining_Collection")
 
 results = collection.query(
-    query_texts=["High calorie foods"],
+    query_texts=["I want to eat spicy food"],
     n_results=5,
-    include=['documents', 'metadatas']
+    include=['documents', 'metadatas'],
+    where={"Location": "Deet's Place"}
 )
 
-print(results)
+print(results["documents"])
