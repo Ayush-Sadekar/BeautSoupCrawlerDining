@@ -33,7 +33,8 @@ def query_func(query, collection, n_results=5):
             "1. Answer using only the provided context\n"
             "2. Be specific about hall names and ingredients\n"
             "3. If unsure, request clarification\n"
-            "4. Mention calorie counts when relevant\n"
+            "4. Mention calorie counts and protein values when relevant\n"
+            "5. If any float values have more than 2 decimal points, round it back down to 2 decimal points.\n"
             "Answer:"
         )
     )
@@ -50,7 +51,7 @@ def process_data(collection, item_dict, current_id, ticker=""):
     enriched_documents = []
 
     for doc in og_documents:
-        new_doc = enrich_doc_text(doc)
+        new_doc = enrich_doc_text(doc, item_dict[doc])
         enriched_documents.append(new_doc)
 
     metadata = []
@@ -58,7 +59,6 @@ def process_data(collection, item_dict, current_id, ticker=""):
     for data in item_dict.values():
         metadata.append(data)
     
-    print(f"metadata is {metadata}")
     ids = []
 
     for item in enriched_documents:
