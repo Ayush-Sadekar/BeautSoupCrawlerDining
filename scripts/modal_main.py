@@ -83,6 +83,22 @@ class Ollama:
                                         "Answer:"
                                    ),stream=False)
         return response["response"]
+    @modal.method()
+    def simple_generate(self, food_item:str) -> str:
+        import ollama
+
+        response = ollama.generate(
+            model=MODEL,
+            prompt=(
+                f"Food Item: {food_item}\n"
+                "Instructions:\n"
+                "For the food item above, determine ingredients that could be used to make it.\n"
+                "Be specific about the names of the ingredients\n"
+                "List the ingredients separated by commas\n"
+            ),
+            stream=False
+        )
+        return response["response"]
     
 
 @app.function(image=image)
@@ -201,12 +217,24 @@ def flask_app():
 
             day = date.today().strftime("%Y-%m-%d")
 
+            sample_ingredients = [
+                # Vegetarian options
+                "spinach, feta, tomatoes, olives",
+                "mushrooms, garlic, basil, olive oil",
+                "tofu, bell peppers, soy sauce, ginger",
+                
+                # Non-vegetarian options
+                "chicken, onions, carrots, thyme",
+                "beef, potatoes, rosemary, butter",
+                "salmon, lemon, dill, capers"
+            ]
+
             mtadata["Calories"] = calories
             mtadata["Protein"] = f"{protein}g"
             mtadata["Date"] = day
             mtadata["Location"] = name
             mtadata["Dish"] = name_line
-            mtadata["Ingredients"] = "N/A"
+            mtadata["Ingredients"] = sample_ingredients[random.randint(0,5)]
 
             item_dict[name_line] = mtadata
 
