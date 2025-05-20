@@ -40,7 +40,7 @@ def query_func(query, collection, n_results=5):
 
     return response["response"]
 
-def process_data(collection, item_dict, current_id):
+def process_data(collection, item_dict, current_id, ticker=""):
 
     if len(item_dict) <= 0:
         return current_id
@@ -62,7 +62,7 @@ def process_data(collection, item_dict, current_id):
     ids = []
 
     for item in enriched_documents:
-        ids.append(f"doc_" + date.today().strftime("%Y-%m-%d") + f"_{current_id}")
+        ids.append(f"doc_{ticker}" + date.today().strftime("%Y-%m-%d") + f"_{current_id}")
         current_id += 1
     
     collection.upsert(
