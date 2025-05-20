@@ -79,23 +79,25 @@ def query_func_messages(query, collection, n_results=5):
     closestPages = collection.query(
         query_texts = [query],
         n_results = n_results,
-        include=["documents", "metadatas"],
-        where={"Date":date.today().strftime("%Y-%m-%d")}
+        include=["documents", "metadatas"]
     )
+    #print(f"closestPages = {closestPages}")
 
-    system_messages = []
-    for doc in closestPages["documents"][0]:
-        system_messages.append({
-            "role": "system",
-            "content": "You are assisting Virginia Tech students figure out what they want to eat on campus. This content is a recommended food item based on their query: " + doc
-        })
 
-    messages = system_messages + [{
-        "role":"user",
-        "content": query
-    }]
+    context = "Available Menu Items: \n"
+    
 
-    return messages
+    for doc, m in zip(closestPages["documents"][0], closestPages["metadatas"][0]):
+        context += (
+            f"Menu Item: {doc}\n"
+            f"Hall: {m["Location"]}\n"
+            f"Calories: {m["Calories"]}\n"
+            f"Protein: {m["Protein"]}\n"
+            f"Ingredients: {m["Ingredients"]}"
+        )
+    
+    fields = [query, context]
+    return fields
 
 # enriching document for better search within ChromaDB
 def enrich_doc_text(doc, meta):
