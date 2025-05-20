@@ -66,7 +66,7 @@ def get_item_and_metadata(location_url):
                     ingredients = ingredients.text.strip()
                 protein = new_soup.find(class_ = "col-lg-12 daily_value protein").text.strip().replace("Protein ", "")
 
-                item_dict[item_Name] = {"Dish": recipe_title, "Location": hall_name, "Calories": calories, "Ingredients": ingredients, "Protein": protein, "Date": date.today().strftime("%Y-%m-%d")}
+                item_dict[item_Name] = {"Dish": recipe_title.text.strip(), "Location": hall_name, "Calories": calories, "Ingredients": ingredients, "Protein": protein, "Date": date.today().strftime("%Y-%m-%d")}
             
             food_items.add(absolute_url)
     

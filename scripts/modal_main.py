@@ -37,6 +37,8 @@ image = modal.Image.debian_slim(python_version="3.12").apt_install(
     copy=True
 ).add_local_dir(
     "/Users/ayush/Desktop/BeautSoupCrawlerDining/scripts", remote_path="/root", copy=True
+).add_local_dir(
+    "/Users/ayush/Desktop/BeautSoupCrawlerDining/scripts/DiningHalls", remote_path="/root/DiningHalls", copy=True
 ).run_function(
     pull, force_build=True
 )
@@ -97,6 +99,9 @@ def flask_app():
     from bs4 import BeautifulSoup
     import requests
     import random
+
+    print(f"The current directory is {os.getcwd()}")
+    print(f"{os.listdir()}")
 
     dir_path = "/Users/ayush/Desktop/BeautSoupCrawlerDining/scripts"
     date_path = os.path.join(dir_path, "date.txt")

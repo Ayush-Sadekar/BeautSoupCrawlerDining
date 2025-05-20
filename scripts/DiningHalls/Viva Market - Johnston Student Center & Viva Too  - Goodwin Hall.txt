@@ -1,0 +1,125 @@
+Dining Hall Name: Viva Market - Johnston Student Center & Viva Too  - Goodwin Hall
+(Bacon, Egg and Cheese English Muffin: Calories
+                                        435 protein unavailable)
+(Breakfast Burrito: Calories
+                                        931 protein unavailable)
+(Chicken Biscuit: Calories
+                                        716 protein unavailable)
+(Egg and Cheese Croissant: Calories
+                                        609 protein unavailable)
+(Nashville Hot Breakfast Burrito: Calories
+                                        1164 protein unavailable)
+(Sausage, Egg and Cheese English Muffin: Calories
+                                        558 protein unavailable)
+(Spicy Chicken Biscuit: Calories
+                                        723 protein unavailable)
+(Turkey Sausage, Egg and Cheese English Muffin: Calories
+                                        459 protein unavailable)
+(Cinnamon Roll: Calories
+                                        780 protein unavailable)
+(GNG Cocoa and Hazelnut Donut: Calories
+                                        273 protein unavailable)
+(GNG Dairy Free Yogurt Parfait: Calories
+                                        417 protein unavailable)
+(GNG Dots Chocolate Donut: Calories
+                                        390 protein unavailable)
+(Plain Croissant: Calories
+                                        330 protein unavailable)
+(GNG Assorted Vanilla Cake Donuts: Calories
+                                        542 protein unavailable)
+(GNG Blueberry Jumbo Muffin: Calories
+                                        440 protein unavailable)
+(GNG Chocolate Cake Donuts: Calories
+                                        1067 protein unavailable)
+(GNG Chocolate Chip Muffin: Calories
+                                        389 protein unavailable)
+(GNG Strawberries & Cream Cup: Calories
+                                        117 protein unavailable)
+(Mixed Berry Parfait: Calories
+                                        262 protein unavailable)
+(YES TO GO Fresh Grapes Cup: Calories
+                                        156 protein unavailable)
+(YES TO GO Fresh Mixed Fruit Cup: Calories
+                                        96 protein unavailable)
+(YES TO GO Fresh Pineapple Cup: Calories
+                                        113 protein unavailable)
+(YES TO GO Fresh Strawberry Cup: Calories
+                                        73 protein unavailable)
+(YES TO GO Yogurt Blueberry Parfait: Calories
+                                        256 protein unavailable)
+(YES TO GO Yogurt Strawberry Parfait: Calories
+                                        264 protein unavailable)
+(YTG Two Berry Fruit Cup: Calories
+                                        60 protein unavailable)
+(Cheddar Cauliflower Bisque Soup: Calories
+                                        478 protein unavailable)
+(Chicken Dumpling Soup: Calories
+                                        177 protein unavailable)
+(Mac and Cheese: Calories
+                                        592 protein unavailable)
+(Soup Dippers: Calories
+                                        251 protein unavailable)
+(Tomato Basil Bisque Soup: Calories
+                                        369 protein unavailable)
+(Popcorn Chicken: Calories
+                                        486 protein unavailable)
+(Cheddar Grilled Cheese Sandwich: Calories
+                                        641 protein unavailable)
+(Gouda Grilled Cheese Sandwich: Calories
+                                        599 protein unavailable)
+(Ham and Cheddar Grilled Cheese Sandwich: Calories
+                                        722 protein unavailable)
+(Naan Cheese Pizza: Calories
+                                        641 protein unavailable)
+(Pepperoni Naan Pizza: Calories
+                                        773 protein unavailable)
+(Cheese Quesadilla w/Pico de Gallo: Calories
+                                        667 protein unavailable)
+(Doritos Walking Nachos: Calories
+                                        316 protein unavailable)
+(No Bean Chili: Calories
+                                        158 protein unavailable)
+(Tostitos Cheese Sauce: Calories
+                                        146 protein unavailable)
+(GNG M&M Cookie: Calories
+                                        558 protein unavailable)
+(GNG Mini Tiramisu: Calories
+                                        370 protein unavailable)
+(GNG Triple Chocolate Cookie: Calories
+                                        568 protein unavailable)
+(Cranberry Pecan Chicken Salad Croissant: Calories
+                                        648 protein unavailable)
+(GNG Black Bean Hummus: Calories
+                                        419 protein unavailable)
+(GNG Ham and Cheddar Croissant: Calories
+                                        560 protein unavailable)
+(GNG Mini Cream Cake Sampler: Calories
+                                        400 protein unavailable)
+(GNG Turkey and Gouda Croissant: Calories
+                                        532 protein unavailable)
+(GNG Buffalo Chicken Wrap: Calories
+                                        631 protein unavailable)
+(GNG Caprese Sandwich: Calories
+                                        637 protein unavailable)
+(GNG Cheese, Cracker, Fruit & Nut Box: Calories
+                                        388 protein unavailable)
+(GNG Chicken Bacon Ranch Wrap: Calories
+                                        868 protein unavailable)
+(GNG Chicken Caesar Wrap: Calories
+                                        681 protein unavailable)
+(GNG GF Ham Sandwich Kit: Calories
+                                        564 protein unavailable)
+(GNG GF Turkey Sandwich Kit: Calories
+                                        533 protein unavailable)
+(GNG Salami and Cheese Snack: Calories
+                                        332 protein unavailable)
+(GNG Spicy Lo Mein Noodle Bowl**: Calories
+                                        474 protein unavailable)
+(Mediterranean Hummus and Veggie Box: Calories
+                                        254 protein unavailable)
+(Peanut Butter & Grape Jelly on White: Calories
+                                        585 protein unavailable)
+(Peanut Butter & Strawberry Jelly Sandwich: Calories
+                                        585 protein unavailable)
+(YES TO GO Veggie Bowl: Calories
+                                        239 protein unavailable)

@@ -1,0 +1,309 @@
+Dining Hall Name: Squires Food Court
+(Bacon, Egg and Cheese Bagel: Calories
+                                        617 protein unavailable)
+(Bacon, Egg and Cheese Biscuit: Calories
+                                        647 protein unavailable)
+(Egg and Cheese Bagel: Calories
+                                        543 protein unavailable)
+(Egg and Cheese Biscuit: Calories
+                                        573 protein unavailable)
+(French Toast Sticks: Calories
+                                        396 protein unavailable)
+(Ham and Cheese Bagel: Calories
+                                        542 protein unavailable)
+(Ham and Cheese Biscuit: Calories
+                                        572 protein unavailable)
+(Sausage Biscuit: Calories
+                                        620 protein unavailable)
+(Sausage, Egg and Cheese Bagel: Calories
+                                        773 protein unavailable)
+(Sausage, Egg and Cheese Biscuit: Calories
+                                        803 protein unavailable)
+(Steak Biscuit: Calories
+                                        674 protein unavailable)
+(Steak, Egg and Cheese Bagel: Calories
+                                        827 protein unavailable)
+(Apple Danish: Calories
+                                        290 protein unavailable)
+(Asiago Bagel: Calories
+                                        360 protein unavailable)
+(Blueberry Bagel: Calories
+                                        350 protein unavailable)
+(Blueberry Muffin: Calories
+                                        550 protein unavailable)
+(Butter Chocolatine: Calories
+                                        300 protein unavailable)
+(Butter Croissant: Calories
+                                        330 protein unavailable)
+(Chocolate Chip Muffin: Calories
+                                        781 protein unavailable)
+(Chocolate Hazlenut Croissant: Calories
+                                        320 protein unavailable)
+(Cinnamon Coffee Muffin: Calories
+                                        781 protein unavailable)
+(Cinnamon Raisin Bagel: Calories
+                                        360 protein unavailable)
+(Cinnamon Roll: Calories
+                                        780 protein unavailable)
+(Cream Cheese Croissant: Calories
+                                        464 protein unavailable)
+(Everything Bagel: Calories
+                                        260 protein unavailable)
+(GNG Assorted Vanilla Cake Donuts: Calories
+                                        542 protein unavailable)
+(GNG Chocolate Cake Donuts: Calories
+                                        1067 protein unavailable)
+(Ham and Swiss Croissant: Calories
+                                        390 protein unavailable)
+(Jalapeno Bagel: Calories
+                                        370 protein unavailable)
+(Plain Bagel: Calories
+                                        360 protein unavailable)
+(Spinach and Feta Pastry: Calories
+                                        330 protein unavailable)
+(Strawberry Cheesecake Danish: Calories
+                                        290 protein unavailable)
+(Southern Style Biscuit: Calories
+                                        - - - protein unavailable)
+(Bacon: Calories
+                                        74 protein unavailable)
+(Country Fried Steak: Calories
+                                        1134 protein unavailable)
+(Egg Puck: Calories
+                                        62 protein unavailable)
+(Sausage Patty: Calories
+                                        230 protein unavailable)
+(Sliced Ham: Calories
+                                        122 protein unavailable)
+(Sliced White Cheddar: Calories
+                                        243 protein unavailable)
+(GNG M&M Cookie: Calories
+                                        558 protein unavailable)
+(GNG Mini Tiramisu: Calories
+                                        370 protein unavailable)
+(GNG Triple Chocolate Cookie: Calories
+                                        568 protein unavailable)
+(GNG Vegan Chocolate Chip Cookie: Calories
+                                        301 protein unavailable)
+(Reese's Cookie: Calories
+                                        628 protein unavailable)
+(Vegan Chocolate Cake Slice: Calories
+                                        761 protein unavailable)
+(Hot Grab and Go Caprese Sandwich: Calories
+                                        465 protein unavailable)
+(Hot Grab and Go Chipotle Chicken Sandwich: Calories
+                                        707 protein unavailable)
+(KC Crusher Sandwich: Calories
+                                        732 protein unavailable)
+(Sicilian Sizzle Sandwich: Calories
+                                        713 protein unavailable)
+(The Beast Sandwich: Calories
+                                        671 protein unavailable)
+(Turkey Trot Sandwich: Calories
+                                        678 protein unavailable)
+(Amoroso Roll: Calories
+                                        230 protein unavailable)
+(Country White Bread: Calories
+                                        100 protein unavailable)
+(Whole Grain Bread: Calories
+                                        110 protein unavailable)
+(Oven Roasted Chicken: Calories
+                                        188 protein unavailable)
+(Oven Roasted Turkey: Calories
+                                        141 protein unavailable)
+(Roast Beef: Calories
+                                        122 protein unavailable)
+(Sliced Capicola: Calories
+                                        243 protein unavailable)
+(Sliced Chicken: Calories
+                                        101 protein unavailable)
+(Sliced Pepperoni: Calories
+                                        529 protein unavailable)
+(Sliced Salami: Calories
+                                        446 protein unavailable)
+(Sliced Turkey: Calories
+                                        101 protein unavailable)
+(Sliced Pepperjack: Calories
+                                        223 protein unavailable)
+(Sliced Provolone: Calories
+                                        203 protein unavailable)
+(Sliced Whole Milk Mozzarella: Calories
+                                        142 protein unavailable)
+(Ancho Chipotle: Calories
+                                        93 protein unavailable)
+(BBQ Sauce: Calories
+                                        74 protein unavailable)
+(Horseradish Aioli: Calories
+                                        55 protein unavailable)
+(Light Mayonnaise: Calories
+                                        35 protein unavailable)
+(Mayonnaise: Calories
+                                        55 protein unavailable)
+(Mustard: Calories
+                                        15 protein unavailable)
+(Oil and Vinegar for Sandwiches: Calories
+                                        60 protein unavailable)
+(Pesto: Calories
+                                        95 protein unavailable)
+(Banana Peppers: Calories
+                                        3 protein unavailable)
+(Dill Pickle Spear: Calories
+                                        0 protein unavailable)
+(Fresh Basil: Calories
+                                        2 protein unavailable)
+(Mesclun Greens: Calories
+                                        1 protein unavailable)
+(Oregano: Calories
+                                        3 protein unavailable)
+(Red Sliced Onion: Calories
+                                        6 protein unavailable)
+(Sliced Cucumber: Calories
+                                        9 protein unavailable)
+(Sliced Tomato: Calories
+                                        8 protein unavailable)
+(Cold Grab and Go Caprese Sandwich: Calories
+                                        465 protein unavailable)
+(Cold Grab and Go Chipotle Chicken Sandwich: Calories
+                                        631 protein unavailable)
+(Cold Grab and Go Sicilian Sizzle Sandwich: Calories
+                                        731 protein unavailable)
+(Cold Grab and Go The Beast Sandwich: Calories
+                                        671 protein unavailable)
+(Cold Grab and Go Turkey Avocado BLT Sandwich: Calories
+                                        698 protein unavailable)
+(Power Veggie Sandwich: Calories
+                                        328 protein unavailable)
+(Cobb Salad: Calories
+                                        385 protein unavailable)
+(Good Greens Salad: Calories
+                                        219 protein unavailable)
+(Green Dream Salad: Calories
+                                        57 protein unavailable)
+(Spinach and Strawberry Salad: Calories
+                                        217 protein unavailable)
+(GNG Oven Roasted Chicken: Calories
+                                        188 protein unavailable)
+(GNG Oven Roasted Turkey: Calories
+                                        141 protein unavailable)
+(GNG Sliced Bacon: Calories
+                                        74 protein unavailable)
+(GNG Sliced Capicola: Calories
+                                        182 protein unavailable)
+(GNG Sliced Chicken: Calories
+                                        76 protein unavailable)
+(GNG Sliced Ham: Calories
+                                        91 protein unavailable)
+(GNG Sliced Pepperoni: Calories
+                                        397 protein unavailable)
+(GNG Sliced Roast Beef: Calories
+                                        81 protein unavailable)
+(GNG Sliced Salami: Calories
+                                        334 protein unavailable)
+(GNG Sliced Turkey: Calories
+                                        76 protein unavailable)
+(Baguette: Calories
+                                        249 protein unavailable)
+(Clam Chowder: Calories
+                                        250 protein unavailable)
+(Macaroni and Cheese: Calories
+                                        458 protein unavailable)
+(Tomato Basil Soup: Calories
+                                        369 protein unavailable)
+(White Cheddar and Cauliflower Bisque: Calories
+                                        478 protein unavailable)
+(GNG Oreo Mousse Cake Slice*: Calories
+                                        812 protein unavailable)
+(B1: Calories
+                                        741 protein unavailable)
+(B2: Calories
+                                        775 protein unavailable)
+(B3: Calories
+                                        655 protein unavailable)
+(B4: Calories
+                                        495 protein unavailable)
+(B5: Calories
+                                        703 protein unavailable)
+(B6: Calories
+                                        320 protein unavailable)
+(Honey Fried Chicken Biscuit: Calories
+                                        300 protein unavailable)
+(Gluten Free Bun: Calories
+                                        240 protein unavailable)
+(Green Lettuce: Calories
+                                        4 protein unavailable)
+(Potato Roll: Calories
+                                        150 protein unavailable)
+(Burger Patty: Calories
+                                        260 protein unavailable)
+(Fried Chicken Patty: Calories
+                                        214 protein unavailable)
+(Grilled Chicken Patty: Calories
+                                        362 protein unavailable)
+(Pesto Turkey Patty: Calories
+                                        267 protein unavailable)
+(Veggie Burger Patty: Calories
+                                        293 protein unavailable)
+(Cheddar Cheese: Calories
+                                        114 protein unavailable)
+(Pepperjack Cheese: Calories
+                                        111 protein unavailable)
+(Provolone Cheese: Calories
+                                        101 protein unavailable)
+(White American Cheese: Calories
+                                        111 protein unavailable)
+(Avocado: Calories
+                                        30 protein unavailable)
+(B37 Sauce: Calories
+                                        32 protein unavailable)
+(Bacon: Calories
+                                        73 protein unavailable)
+(French Fried Onions: Calories
+                                        182 protein unavailable)
+(Fried Egg: Calories
+                                        84 protein unavailable)
+(Ketchup: Calories
+                                        33 protein unavailable)
+(Mayonnaise: Calories
+                                        109 protein unavailable)
+(Mustard: Calories
+                                        30 protein unavailable)
+(Pickle Chips: Calories
+                                        2 protein unavailable)
+(Sliced Jalapeno Peppers: Calories
+                                        4 protein unavailable)
+(Sliced Red Onion: Calories
+                                        11 protein unavailable)
+(Sliced Tomato: Calories
+                                        5 protein unavailable)
+(B37 Signature Poutine: Calories
+                                        650 protein unavailable)
+(Beer Cheese Fries: Calories
+                                        2655 protein unavailable)
+(French Fries: Calories
+                                        149 protein unavailable)
+(Sweet Potato Beer Cheese Fries: Calories
+                                        4429 protein unavailable)
+(Sweet Potato Fries: Calories
+                                        375 protein unavailable)
+(Sweet Potato Poutine: Calories
+                                        875 protein unavailable)
+(Andes Mint Milkshake: Calories
+                                        1030 protein unavailable)
+(Chocolate Brownie Milkshake: Calories
+                                        1222 protein unavailable)
+(Chocolate Milkshake: Calories
+                                        971 protein unavailable)
+(Cinnamon Toast Crunch Milkshake: Calories
+                                        941 protein unavailable)
+(Cookies and Cream Milkshake: Calories
+                                        1018 protein unavailable)
+(Fruity Pebbles Milkshake: Calories
+                                        939 protein unavailable)
+(Salted Caramel Milkshake: Calories
+                                        1070 protein unavailable)
+(Strawberry Banana Milkshake: Calories
+                                        962 protein unavailable)
+(Strawberry Milkshake: Calories
+                                        902 protein unavailable)
+(Vanilla Milkshake: Calories
+                                        967 protein unavailable)

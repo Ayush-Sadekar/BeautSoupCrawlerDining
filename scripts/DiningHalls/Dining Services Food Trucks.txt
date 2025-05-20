@@ -1,0 +1,19 @@
+Dining Hall Name: Dining Services Food Trucks
+(Au Jus: Calories
+                                        5 protein unavailable)
+(Chick'n Philly Bag: Calories
+                                        922 protein unavailable)
+(Chicken Parm Sando: Calories
+                                        1102 protein unavailable)
+(Chicken Philly Bag: Calories
+                                        814 protein unavailable)
+(Hot Ham Sandwich Bag: Calories
+                                        454 protein unavailable)
+(Melted White Cheese: Calories
+                                        492 protein unavailable)
+(Shaved Prime Rib Sandwich Bag: Calories
+                                        897 protein unavailable)
+(Side of Fried Chips: Calories
+                                        293 protein unavailable)
+(Smoked Tomato Au Jus: Calories
+                                        5 protein unavailable)

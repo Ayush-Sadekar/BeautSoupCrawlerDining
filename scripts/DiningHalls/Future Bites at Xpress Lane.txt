@@ -1,0 +1,119 @@
+Dining Hall Name: Future Bites at Xpress Lane
+(6" Avocado BLT Sub: Calories
+                                        494 protein unavailable)
+(6" Bayou Chicken Sub: Calories
+                                        458 protein unavailable)
+(6" Chicken Bacon Ranch: Calories
+                                        518 protein unavailable)
+(6" Hokie Club: Calories
+                                        531 protein unavailable)
+(6" Italiano Sub: Calories
+                                        601 protein unavailable)
+(6" Meatball Sub: Calories
+                                        568 protein unavailable)
+(6" Philly Cheesesteak Sub: Calories
+                                        477 protein unavailable)
+(6" Pizza Sub: Calories
+                                        455 protein unavailable)
+(12" Avocado BLT Sub: Calories
+                                        1020 protein unavailable)
+(12" Bayou Chicken Sub: Calories
+                                        660 protein unavailable)
+(12" Chicken Bacon Ranch Sub: Calories
+                                        1036 protein unavailable)
+(12" Hokie Club: Calories
+                                        1094 protein unavailable)
+(12" Italiano Sub: Calories
+                                        1201 protein unavailable)
+(12" Philly Cheesesteak: Calories
+                                        987 protein unavailable)
+(12" Pizza Sub: Calories
+                                        909 protein unavailable)
+(Meatball Sub: Calories
+                                        1136 protein unavailable)
+(6" BYO Chicken Sub: Calories
+                                        496 protein unavailable)
+(6" BYO Ham Sub: Calories
+                                        488 protein unavailable)
+(6" BYO Roast Beef Sub: Calories
+                                        468 protein unavailable)
+(6" BYO Salami Sub: Calories
+                                        609 protein unavailable)
+(6" BYO Turkey Sub: Calories
+                                        450 protein unavailable)
+(12" BYO Chicken Sub: Calories
+                                        993 protein unavailable)
+(12" BYO Ham Sub: Calories
+                                        976 protein unavailable)
+(12" BYO Roast Beef Sub: Calories
+                                        933 protein unavailable)
+(12" BYO Salami Sub: Calories
+                                        1219 protein unavailable)
+(12" BYO Turkey Sub: Calories
+                                        900 protein unavailable)
+(Plain Tortilla for Wraps and Burritos: Calories
+                                        329 protein unavailable)
+(2 Slices Extra Bacon: Calories
+                                        80 protein unavailable)
+(4 Slices Extra Bacon: Calories
+                                        160 protein unavailable)
+(Extra Ham: Calories
+                                        122 protein unavailable)
+(Extra Pepperoni: Calories
+                                        456 protein unavailable)
+(Extra Roast Beef: Calories
+                                        122 protein unavailable)
+(Extra Salami: Calories
+                                        334 protein unavailable)
+(Extra Turkey Breast: Calories
+                                        76 protein unavailable)
+(Cheddar Cheese: Calories
+                                        114 protein unavailable)
+(Cheese, American: Calories
+                                        39 protein unavailable)
+(Monterey Jack & Cheddar Cheese: Calories
+                                        111 protein unavailable)
+(Pepperjack Cheese: Calories
+                                        111 protein unavailable)
+(Provolone Cheese: Calories
+                                        101 protein unavailable)
+(Shredded Mozzarella: Calories
+                                        72 protein unavailable)
+(Sliced Muenster Cheese: Calories
+                                        101 protein unavailable)
+(Swiss Cheese Sliced: Calories
+                                        111 protein unavailable)
+(Banana Peppers: Calories
+                                        3 protein unavailable)
+(Black Olives: Calories
+                                        38 protein unavailable)
+(Cucumbers: Calories
+                                        6 protein unavailable)
+(DILL PICKLE CHIPS: Calories
+                                        0 protein unavailable)
+(Fresh Spinach: Calories
+                                        2 protein unavailable)
+(Green Pepper Strips: Calories
+                                        6 protein unavailable)
+(Pickled Jalapenos: Calories
+                                        5 protein unavailable)
+(Shredded Iceberg Lettuce: Calories
+                                        4 protein unavailable)
+(Sliced Tomatoes: Calories
+                                        5 protein unavailable)
+(BBQ Sauce: Calories
+                                        57 protein unavailable)
+(Buffalo Sauce: Calories
+                                        0 protein unavailable)
+(Chipotle Mayo: Calories
+                                        182 protein unavailable)
+(Honey Mustard: Calories
+                                        114 protein unavailable)
+(Mayonnaise: Calories
+                                        202 protein unavailable)
+(Roasted Garlic Parmesan Aioli: Calories
+                                        157 protein unavailable)
+(Salad Dressing, Ranch: Calories
+                                        107 protein unavailable)
+(Salad Oil & Vinegar: Calories
+                                        119 protein unavailable)

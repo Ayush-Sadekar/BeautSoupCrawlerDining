@@ -1,0 +1,317 @@
+Dining Hall Name: West End at Cochrane Hall
+(Pasta, Rotini: Calories
+                                        654 protein unavailable)
+(Pasta, Sm. Plate: Rotini: Calories
+                                        400 protein unavailable)
+(Red Lentil Penne: Calories
+                                        759 protein unavailable)
+(Red Lentil Penne, Small Plate: Calories
+                                        474 protein unavailable)
+(Spaghetti: Calories
+                                        299 protein unavailable)
+(Spaghetti, Small Plate: Calories
+                                        178 protein unavailable)
+(Tri-color Tortellini: Calories
+                                        446 protein unavailable)
+(Tri-color Tortellini, Small Plate: Calories
+                                        279 protein unavailable)
+(Alfredo Sauce: Calories
+                                        771 protein unavailable)
+(Alfredo Sauce, Small Plate: Calories
+                                        385 protein unavailable)
+(Marinara Sauce: Calories
+                                        104 protein unavailable)
+(Marinara Sauce, Small Plate: Calories
+                                        51 protein unavailable)
+(Meatball Sauce: Calories
+                                        360 protein unavailable)
+(Meatball Sauce, Small Plate: Calories
+                                        223 protein unavailable)
+(Sauce, Meat Marinara: Calories
+                                        150 protein unavailable)
+(Sauce, Sm. Plate: Meat Marinara: Calories
+                                        53 protein unavailable)
+(Bianca Personal Pizza: Calories
+                                        394 protein unavailable)
+(Four Cheese Personal Pizza: Calories
+                                        559 protein unavailable)
+(Kerin's Buffalo Ranch Chicken Pizza: Calories
+                                        759 protein unavailable)
+(Pepperoni Personal Pizza: Calories
+                                        856 protein unavailable)
+(Supreme Personal Pizza: Calories
+                                        642 protein unavailable)
+(Vegan Cheese Personal Pizza: Calories
+                                        440 protein unavailable)
+(Vegan Pepperoni Personal Pizza: Calories
+                                        557 protein unavailable)
+(Garlic Bread Sticks: Calories
+                                        209 protein unavailable)
+(Baked Tofu Bites: Calories
+                                        294 protein unavailable)
+(Braised Tempeh: Calories
+                                        131 protein unavailable)
+(Chicken Tenders: Calories
+                                        104 protein unavailable)
+(Edamame: Calories
+                                        68 protein unavailable)
+(English Cucumber: Calories
+                                        54 protein unavailable)
+(Fresh Basil: Calories
+                                        0 protein unavailable)
+(Fresh Mint: Calories
+                                        0 protein unavailable)
+(Grape Tomatoes: Calories
+                                        5 protein unavailable)
+(Green Chimi Sauce: Calories
+                                        86 protein unavailable)
+(Grilled Chicken: Calories
+                                        44 protein unavailable)
+(Hard Boiled Eggs: Calories
+                                        22 protein unavailable)
+(Jalapeno: Calories
+                                        1 protein unavailable)
+(Kimchi: Calories
+                                        9 protein unavailable)
+(Matchstick Carrots: Calories
+                                        12 protein unavailable)
+(Mushrooms: Calories
+                                        6 protein unavailable)
+(Peanuts: Calories
+                                        40 protein unavailable)
+(Red Onions: Calories
+                                        1 protein unavailable)
+(Red Peppers: Calories
+                                        0 protein unavailable)
+(Salad Lettuce Mix: Calories
+                                        19 protein unavailable)
+(Seared Yellowfin Tuna: Calories
+                                        101 protein unavailable)
+(Sesame Seeds: Calories
+                                        50 protein unavailable)
+(Soba Noodles: Calories
+                                        50 protein unavailable)
+(Spicy Sesame Dressing: Calories
+                                        130 protein unavailable)
+(Chili Beans with Meat: Calories
+                                        320 protein unavailable)
+(Ham & Cheese Quiche: Calories
+                                        353 protein unavailable)
+(Irish Beef Stew: Calories
+                                        274 protein unavailable)
+(Macaroni & Cheese: Calories
+                                        485 protein unavailable)
+(Vegetable Soup: Calories
+                                        89 protein unavailable)
+(Bread Bowl: Calories
+                                        184 protein unavailable)
+(Cornbread: Calories
+                                        394 protein unavailable)
+(White Dinner Roll: Calories
+                                        90 protein unavailable)
+(All American Salad: Calories
+                                        234 protein unavailable)
+(All American Salad, Side: Calories
+                                        90 protein unavailable)
+(Breaded Chicken Strips: Calories
+                                        104 protein unavailable)
+(Caesar Salad: Calories
+                                        499 protein unavailable)
+(Caesar Salad, Side: Calories
+                                        233 protein unavailable)
+(Garden Fruit and Nut Salad: Calories
+                                        397 protein unavailable)
+(Garden Fruit and Nut Salad, Side: Calories
+                                        213 protein unavailable)
+(Grilled Chicken Salad: Calories
+                                        394 protein unavailable)
+(Grilled Chicken: Calories
+                                        132 protein unavailable)
+(Hot Chicken Tender Salad: Calories
+                                        482 protein unavailable)
+(Roasted Beet Salad: Calories
+                                        312 protein unavailable)
+(Roasted Beet Side Salad: Calories
+                                        170 protein unavailable)
+(Seared Yellowfin Tuna: Calories
+                                        101 protein unavailable)
+(1000 Island: Calories
+                                        260 protein unavailable)
+(Balsamic Vinaigrette: Calories
+                                        58 protein unavailable)
+(Bleu Cheese Dressing: Calories
+                                        80 protein unavailable)
+(Chipotle Ranch: Calories
+                                        140 protein unavailable)
+(Fat Free Italian: Calories
+                                        29 protein unavailable)
+(Honey Mustard Salad Dressing: Calories
+                                        114 protein unavailable)
+(Salad Dressing, Poppyseed: Calories
+                                        126 protein unavailable)
+(Salad Dressing, Ranch: Calories
+                                        107 protein unavailable)
+(Salad Dressing, Tableside Caesar: Calories
+                                        134 protein unavailable)
+(Add CBD Oil: Calories
+                                        10 protein unavailable)
+(Add Hemp Protein Powder: Calories
+                                        132 protein unavailable)
+(Pineapple Paradise Smoothie: Calories
+                                        223 protein unavailable)
+(Strawberry Banana Smoothie: Calories
+                                        190 protein unavailable)
+(Strawberry Daiquiri Smoothie: Calories
+                                        159 protein unavailable)
+(Triple Berry Tart Smoothie: Calories
+                                        204 protein unavailable)
+(Tropical Green Smoothie: Calories
+                                        160 protein unavailable)
+(Assorted Herbal Teas: Calories
+                                        0 protein unavailable)
+(Brewed Coffee: Calories
+                                        1 protein unavailable)
+(Hot Chocolate: Calories
+                                        552 protein unavailable)
+(Creme Brulee variety: Calories
+                                        591 protein unavailable)
+(Buffalo Chicken Tender Wrap: Calories
+                                        794 protein unavailable)
+(Buffalo Chik'n Ranch Wrap: Calories
+                                        655 protein unavailable)
+(Chicken Caesar Wrap: Calories
+                                        920 protein unavailable)
+(Chicken Fajita Wrap: Calories
+                                        778 protein unavailable)
+(Chicken Tender Bacon Ranch Wrap: Calories
+                                        1089 protein unavailable)
+(Chik'n Ranch Wrap: Calories
+                                        656 protein unavailable)
+(Grilled Asian Chicken Wrap: Calories
+                                        885 protein unavailable)
+(Mediterranean Wrap: Calories
+                                        906 protein unavailable)
+(Roasted Cauliflower Wrap: Calories
+                                        830 protein unavailable)
+(Spicy Sesame Tempeh Wrap: Calories
+                                        790 protein unavailable)
+(Steak Fajita Wrap: Calories
+                                        839 protein unavailable)
+(Two Bean Mexican Wrap: Calories
+                                        865 protein unavailable)
+(Grilled Cheese Sandwich: Calories
+                                        971 protein unavailable)
+(Reuben Sandwich: Calories
+                                        724 protein unavailable)
+(Black Oak Honey Ham: Calories
+                                        179 protein unavailable)
+(Grilled Chicken Breast: Calories
+                                        192 protein unavailable)
+(Hickory Smoked Chicken: Calories
+                                        530 protein unavailable)
+(London Broil: Calories
+                                        270 protein unavailable)
+(Baked Potato: Calories
+                                        443 protein unavailable)
+(Chicken Gravy: Calories
+                                        28 protein unavailable)
+(Garlic Whipped Potatoes: Calories
+                                        204 protein unavailable)
+(Grilled Asparagus: Calories
+                                        106 protein unavailable)
+(Grilled Corn: Calories
+                                        336 protein unavailable)
+(Mushroom Sauce: Calories
+                                        26 protein unavailable)
+(Roasted Ranch Red Skin Potatoes: Calories
+                                        282 protein unavailable)
+(Seasoned Steamed Broccoli: Calories
+                                        38 protein unavailable)
+(Wild Rice: Calories
+                                        122 protein unavailable)
+(1/4 Pound All Beef Hotdog: Calories
+                                        431 protein unavailable)
+(Bacon Cheese Burger: Calories
+                                        736 protein unavailable)
+(Bacon, Egg and Cheese Burger: Calories
+                                        866 protein unavailable)
+(Becky's Kickin' Chicken Sandwich: Calories
+                                        866 protein unavailable)
+(Black Bean Burger with Cheese: Calories
+                                        540 protein unavailable)
+(Burger, Monterey: Calories
+                                        759 protein unavailable)
+(Cheese Burger: Calories
+                                        667 protein unavailable)
+(Fried Chicken Sandwich: Calories
+                                        699 protein unavailable)
+(Hot Dog Chili: Calories
+                                        59 protein unavailable)
+(Pimento Cheese Burger with Bacon Jam: Calories
+                                        811 protein unavailable)
+(Sports Bar Burger: Calories
+                                        616 protein unavailable)
+(Wheat Bun: Calories
+                                        200 protein unavailable)
+(Bone-in BBQ Wings: Calories
+                                        544 protein unavailable)
+(Bone-in Buffalo Wings: Calories
+                                        432 protein unavailable)
+(Bone-in Caribbean Jerk Wings: Calories
+                                        563 protein unavailable)
+(Bone-in Carolina Reaper Buffalo Wings: Calories
+                                        467 protein unavailable)
+(Bone-in Chili Gochujang Wings: Calories
+                                        552 protein unavailable)
+(Bone-in Kickin' Bourbon Wings: Calories
+                                        556 protein unavailable)
+(Boneless Buffalo Wings: Calories
+                                        381 protein unavailable)
+(Boneless Caribbean Jerk Wings: Calories
+                                        473 protein unavailable)
+(Boneless Carolina Reaper Buffalo Wings: Calories
+                                        376 protein unavailable)
+(Boneless Gochujang Chili Wings: Calories
+                                        461 protein unavailable)
+(Boneless Honey BBQ Wings: Calories
+                                        453 protein unavailable)
+(Boneless Kickin' Bourbon Wings: Calories
+                                        466 protein unavailable)
+(Hokie Tenders: Calories
+                                        421 protein unavailable)
+(Cheese Fries: Calories
+                                        1311 protein unavailable)
+(Half Basket Cheese Fries: Calories
+                                        659 protein unavailable)
+(Half Basket Steak Fries: Calories
+                                        326 protein unavailable)
+(Mozzarella Cheese Sticks: Calories
+                                        538 protein unavailable)
+(Steak Fries: Calories
+                                        586 protein unavailable)
+(Cheese Quesadilla: Calories
+                                        1026 protein unavailable)
+(Chicken Quesadilla: Calories
+                                        1204 protein unavailable)
+(Guajillo Steak Quesadilla: Calories
+                                        1277 protein unavailable)
+(Salmon Cake Sandwich: Calories
+                                        951 protein unavailable)
+(Wrap, Spicy Asian Chicken w/Rice: Calories
+                                        728 protein unavailable)
+(Roasted Brussel Sprouts: Calories
+                                        150 protein unavailable)
+(Grilled 12 oz Ribeye Steak: Calories
+                                        1261 protein unavailable)
+(Grilled 8 oz Sirloin Steak: Calories
+                                        474 protein unavailable)
+(Grilled Salmon: Calories
+                                        514 protein unavailable)
+(Grilled Shrimp Skewer: Calories
+                                        98 protein unavailable)
+(Lobster Tail: Calories
+                                        639 protein unavailable)
+(Burger, Hickory: Calories
+                                        873 protein unavailable)
+(Burger, Oh Shiitake!: Calories
+                                        712 protein unavailable)

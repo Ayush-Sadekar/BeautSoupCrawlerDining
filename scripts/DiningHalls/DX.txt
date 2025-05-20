@@ -1,0 +1,39 @@
+Dining Hall Name: DX
+(Buffalo Chicken Ranch Wrap: Calories
+                                        677 protein unavailable)
+(Chicken Bacon Ranch Wrap: Calories
+                                        734 protein unavailable)
+(Chicken Parmesan Wrap: Calories
+                                        699 protein unavailable)
+(Bacon Double Cheeseburger: Calories
+                                        727 protein unavailable)
+(Double Cheeseburger: Calories
+                                        537 protein unavailable)
+(Quarter Pound Bacon Cheeseburger: Calories
+                                        509 protein unavailable)
+(Quarter Pound Cheeseburger: Calories
+                                        358 protein unavailable)
+(Quarter Pound Hamburger: Calories
+                                        319 protein unavailable)
+(Chicken Patty Sandwich: Calories
+                                        372 protein unavailable)
+(Chicken Patty/Cheese Sandwich: Calories
+                                        412 protein unavailable)
+(Spicy Chicken Filet Sandwich: Calories
+                                        403 protein unavailable)
+(Spicy Chicken Filet/Cheese Sandwich: Calories
+                                        442 protein unavailable)
+(Chicken Tenders: Calories
+                                        417 protein unavailable)
+(Corn Dog Nuggets: Calories
+                                        500 protein unavailable)
+(French Fries: Calories
+                                        192 protein unavailable)
+(Incogmeato Tenders: Calories
+                                        518 protein unavailable)
+(Mozzarella Sticks: Calories
+                                        557 protein unavailable)
+(Cheese Naan Pizza: Calories
+                                        563 protein unavailable)
+(Pepperoni Naan Pizza: Calories
+                                        654 protein unavailable)
