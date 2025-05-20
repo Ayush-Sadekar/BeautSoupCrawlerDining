@@ -169,7 +169,10 @@ def flask_app():
 
     for hall in hall_names:
 
-        path = os.path.join("/Users/ayush/Desktop/BeautSoupCrawlerDining/DiningHalls", hall)
+        prim_path = os.getcwd()
+        end_path = "DiningHalls"
+        path = os.path.join(prim_path, end_path)
+        path = os.path.join(path, hall)
         path += ".txt"
 
         with open(path, "r") as file:
