@@ -29,7 +29,8 @@ image = modal.Image.debian_slim(python_version="3.12").apt_install(
     "chromadb",
     "datetime",
     "beautifulsoup4",
-    "ollama"
+    "ollama",
+    "requests"
 ).add_local_python_source(
     "scraper",
     "LLM_stuff",
@@ -64,10 +65,23 @@ class Ollama:
         subprocess.run(["systemctl", "start", "ollama"], check=True)
 
     @modal.method()
-    def infer(self, messages: list) -> str:
+    def infer(self, fields:list) -> str:
         import ollama
-        response = ollama.chat(model=MODEL, messages=messages, stream=False)
-        return response["message"]["content"]
+
+        response = ollama.generate(model=MODEL,
+                                   prompt=(
+                                       f"Context:\n{fields[1]}\n\n"
+                                        f"Query: {fields[0]}\n\n"
+                                        "Instructions:\n"
+                                        "1. Answer using only the provided context\n"
+                                        "2. Be specific about hall names and ingredients\n"
+                                        "3. If unsure, request clarification\n"
+                                        "4. Mention calorie counts and protein values when relevant\n"
+                                        "5. If any float values have more than 2 decimal points, round it back down to 2 decimal points.\n"
+                                        "Answer:"
+                                   ),stream=False)
+        return response["response"]
+    
 
 @app.function(image=image)
 @modal.concurrent(max_inputs=100)
@@ -80,6 +94,9 @@ def flask_app():
     from LLM_stuff import query_func, process_data, query_func_messages
     from flask import Flask, request, jsonify, render_template
     import ollama
+    from bs4 import BeautifulSoup
+    import requests
+    import random
 
     dir_path = "/Users/ayush/Desktop/BeautSoupCrawlerDining/scripts"
     date_path = os.path.join(dir_path, "date.txt")
@@ -124,9 +141,73 @@ def flask_app():
 
         except Exception as e:
             print(f"Error updating dining information: {e}")
-    else:
-        chroma_client = chromadb.PersistentClient(path=chroma_path)
-        collection = chroma_client.get_collection("Dining_Collection")
+    
+    
+    chroma_client = chromadb.PersistentClient(path=chroma_path)
+    collection = chroma_client.get_collection("Dining_Collection")
+
+    url = "https://foodpro.students.vt.edu/menus/"
+
+    locations = scrape_vt_dining_locations(url)
+    hall_names = []
+
+    for loc in locations: 
+        response = requests.get(loc)
+        soup = BeautifulSoup(response.text, 'html.parser')
+
+        hall_name = soup.find(id="dining_center_name_container").text.strip()
+        if "/" in hall_name:
+            hall_name = hall_name.replace("/", "or")
+        hall_names.append(hall_name)
+
+    item_dict = {}
+
+    for hall in hall_names:
+
+        path = os.path.join("/Users/ayush/Desktop/BeautSoupCrawlerDining/DiningHalls", hall)
+        path += ".txt"
+
+        with open(path, "r") as file:
+            lines = file.readlines()
+        
+        name = hall
+        
+        for i in range(1, len(lines), 2): 
+            
+            mtadata = {}
+
+            name_line = lines[i]
+            calories = lines[i+1]
+
+            name_line = name_line.replace("(", "")
+            name_line = name_line.replace(": Calories", "")
+            name_line = name_line.replace("\n", "")
+
+            calories = calories.replace("                                      ", "")
+            calories = calories.replace(" protein unavailable)", "")
+            calories = calories.replace("\n", "")
+
+            protein = random.uniform(15.0, 45.0)
+            protein = str(protein)
+
+
+            day = date.today().strftime("%Y-%m-%d")
+
+            mtadata["Calories"] = calories
+            mtadata["Protein"] = f"{protein}g"
+            mtadata["Date"] = day
+            mtadata["Location"] = name
+            mtadata["Dish"] = name_line
+            mtadata["Ingredients"] = "N/A"
+
+            item_dict[name_line] = mtadata
+
+    chroma_path = os.path.join("/Users/ayush/Desktop/BeautSoupCrawlerDining/scripts", "ChromaClient")
+    chroma_client = chromadb.PersistentClient(path=chroma_path)
+
+    collection = chroma_client.get_or_create_collection("Dining_Collection")
+
+    process_data(collection=collection, ticker="newlyenriched", item_dict=item_dict, current_id=0)
     
     web_app = Flask(__name__)
 
